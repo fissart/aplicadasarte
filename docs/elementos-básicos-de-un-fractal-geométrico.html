@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Capítulo 1 Elementos básicos de un fractal geométrico | Fractales en el arte</title>
+  <meta name="description" content="Capítulo 1 Elementos básicos de un fractal geométrico | Fractales en el arte" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Capítulo 1 Elementos básicos de un fractal geométrico | Fractales en el arte" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Capítulo 1 Elementos básicos de un fractal geométrico | Fractales en el arte" />
+  
+  
+  
+
+<meta name="author" content="Ricardo Michel MALLQUI BAÑOS" />
+
+
+<meta name="date" content="2022-07-09" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="introducción.html"/>
+<link rel="next" href="número-áureo-como-un-fractal.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+ <link rel="icon" type="image/x-icon" href="favicon.ico"> 
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Resumen</a></li>
+<li class="chapter" data-level="" data-path="introducción.html"><a href="introducción.html"><i class="fa fa-check"></i>Introducción</a></li>
+<li class="chapter" data-level="1" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html"><i class="fa fa-check"></i><b>1</b> Elementos básicos de un fractal geométrico</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#conjuntos-reconocer-conjuntos-como-una---conexidad---mobius-y-klein"><i class="fa fa-check"></i><b>1.1</b> Conjuntos (Reconocer conjuntos como una  - conexidad - Mobius y Klein)</a></li>
+<li class="chapter" data-level="1.2" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#operaciones-con-conjuntos-relaciones-unión-intersección-diferencia-diferencia-simétrica-etc"><i class="fa fa-check"></i><b>1.2</b> Operaciones con conjuntos (Relaciones – unión-intersección-diferencia-diferencia simétrica, etc)</a></li>
+<li class="chapter" data-level="1.3" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#cartesianas-2d-y-3d-plano-y-sólidos---representación-de-puntos-lineas-y-planos-geogebra"><i class="fa fa-check"></i><b>1.3</b>  cartesianas 2d y 3d (Plano y sólidos) - representación de puntos, lineas y planos (Geogebra)</a></li>
+<li class="chapter" data-level="1.4" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#transformaciones-elementales-sobre-formas-2d-y-3d"><i class="fa fa-check"></i><b>1.4</b> Transformaciones elementales sobre formas 2D y 3D</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#traslacion"><i class="fa fa-check"></i><b>1.4.1</b> Traslacion</a></li>
+<li class="chapter" data-level="1.4.2" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#rotación"><i class="fa fa-check"></i><b>1.4.2</b> Rotación</a></li>
+<li class="chapter" data-level="1.4.3" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#homotecia"><i class="fa fa-check"></i><b>1.4.3</b> Homotecia</a></li>
+<li class="chapter" data-level="1.4.4" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#reflexión"><i class="fa fa-check"></i><b>1.4.4</b> Reflexión</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#transformaciones-topológicas-taza---donuts-zbrush-metamorfosis"><i class="fa fa-check"></i><b>1.5</b> Transformaciones topológicas (Taza - donuts – Zbrush metamorfosis)</a></li>
+<li class="chapter" data-level="1.6" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#recursividad-o-iteración-de-transformaciones-2d-y-3d-secuencias"><i class="fa fa-check"></i><b>1.6</b> Recursividad o iteración de transformaciones 2D y 3D (Secuencias)</a></li>
+<li class="chapter" data-level="1.7" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#principios-de-la-composición-y-las-transformaciones-relación-fractal"><i class="fa fa-check"></i><b>1.7</b> Principios de la composición y las transformaciones (Relación-fractal)</a></li>
+<li class="chapter" data-level="1.8" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#sustentación-de-trabajos"><i class="fa fa-check"></i><b>1.8</b> Sustentación de trabajos ()</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html"><i class="fa fa-check"></i><b>2</b> Número áureo como un fractal</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html#número-áureo-proporción-áurea-sección-áurea-aplicaciones"><i class="fa fa-check"></i><b>2.1</b> Número áureo, proporción áurea, sección áurea (Aplicaciones)</a></li>
+<li class="chapter" data-level="2.2" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html#rectángulo-áureo-rectángulos-áureos-y-composición"><i class="fa fa-check"></i><b>2.2</b> Rectángulo áureo (Rectángulos áureos) y composición</a></li>
+<li class="chapter" data-level="2.3" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html#sucesiones-de-fibonnacci-relacionado-con-el-número-áureo"><i class="fa fa-check"></i><b>2.3</b> Sucesiones de Fibonnacci relacionado con el número áureo</a></li>
+<li class="chapter" data-level="2.4" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html#rectángulos-dinámicos"><i class="fa fa-check"></i><b>2.4</b> Rectángulos dinámicos</a></li>
+<li class="chapter" data-level="2.5" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html#pentágono-y-triángulo-áureo-composición."><i class="fa fa-check"></i><b>2.5</b> Pentágono y triángulo áureo (Composición).</a></li>
+<li class="chapter" data-level="2.6" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html#el-dodecaedro-construcción-y-la-relación-con-el-número-áureo"><i class="fa fa-check"></i><b>2.6</b> El dodecaedro construcción y la relación con el número áureo</a></li>
+<li class="chapter" data-level="2.7" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html#el-icosaedro-construcción-y-la-relación-con-el-número-áureo"><i class="fa fa-check"></i><b>2.7</b> El icosaedro construcción y la relación con el número áureo</a></li>
+<li class="chapter" data-level="2.8" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html#proporción-áurea-de-la-figura-humana"><i class="fa fa-check"></i><b>2.8</b> Proporción áurea de la figura humana</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><i class="fa fa-check"></i><b>3</b> Fractales sobre el conjunto de los números complejos y cuaterniones</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#números-complejos."><i class="fa fa-check"></i><b>3.1</b> Números complejos.</a></li>
+<li class="chapter" data-level="3.2" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#operaciones-con-números-complejos"><i class="fa fa-check"></i><b>3.2</b> Operaciones con números complejos</a></li>
+<li class="chapter" data-level="3.3" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#funciones-en-el-plano-complejo-y-fractales-fz-zinmathbbc-cualesquiera"><i class="fa fa-check"></i><b>3.3</b> Funciones en el plano complejo y fractales (<span class="math inline">\(f(z), z\in\mathbb{C}\)</span> cualesquiera)</a></li>
+<li class="chapter" data-level="3.4" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#los-conjuntos-de-mandelbrot-fzz2c"><i class="fa fa-check"></i><b>3.4</b> Los conjuntos de Mandelbrot (<span class="math inline">\(f(z)=z^2+c\)</span>)</a></li>
+<li class="chapter" data-level="3.5" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#los-conjuntos-de-julia-fzz2c"><i class="fa fa-check"></i><b>3.5</b> Los conjuntos de Julia (<span class="math inline">\(f(z)=z^2+c\)</span>)</a></li>
+<li class="chapter" data-level="3.6" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#los-cuaterniones-y-conjuntos-de-mandelbrot-y-julia-3d-fractales-orgánicos"><i class="fa fa-check"></i><b>3.6</b> Los cuaterniones y conjuntos de Mandelbrot y Julia 3D (Fractales orgánicos)</a></li>
+<li class="chapter" data-level="3.7" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#reconocimiento-de-fractales-sobre-formas-orgánicas"><i class="fa fa-check"></i><b>3.7</b> Reconocimiento de fractales sobre formas orgánicas</a></li>
+<li class="chapter" data-level="3.8" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#sustentación-de-trabajos-1"><i class="fa fa-check"></i><b>3.8</b> Sustentación de trabajos ()</a></li>
+<li class="chapter" data-level="3.9" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#sección-áurea"><i class="fa fa-check"></i><b>3.9</b> Sección áurea</a></li>
+<li class="chapter" data-level="3.10" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#rectángulo-áureo"><i class="fa fa-check"></i><b>3.10</b> Rectángulo áureo</a></li>
+<li class="chapter" data-level="3.11" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#pentágono-y-el-número-de-oro"><i class="fa fa-check"></i><b>3.11</b> Pentágono y el número de oro</a></li>
+<li class="chapter" data-level="3.12" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#dodecaedro-y-el-número-de-oro"><i class="fa fa-check"></i><b>3.12</b> Dodecaedro y el número de oro</a></li>
+<li class="chapter" data-level="3.13" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#aplicaciones-del-número-de-oro"><i class="fa fa-check"></i><b>3.13</b> Aplicaciones del número de oro</a>
+<ul>
+<li class="chapter" data-level="3.13.1" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#terminologías"><i class="fa fa-check"></i><b>3.13.1</b> Terminologías</a></li>
+<li class="chapter" data-level="3.13.2" data-path="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html"><a href="fractales-sobre-el-conjunto-de-los-números-complejos-y-cuaterniones.html#ejemplo-aplicativo"><i class="fa fa-check"></i><b>3.13.2</b> Ejemplo aplicativo</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html"><a href="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html"><i class="fa fa-check"></i><b>4</b> Aplicaciones de los fractales en composiciones complejas (abstracto-figurativas)</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html"><a href="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html#secuencias-orgánicas-bajo-transformaciones-topológicas"><i class="fa fa-check"></i><b>4.1</b> Secuencias orgánicas bajo transformaciones topológicas</a></li>
+<li class="chapter" data-level="4.2" data-path="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html"><a href="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html#fractales-orgánicos-bajo-transformaciones-topológicas-sketchfab-organic"><i class="fa fa-check"></i><b>4.2</b> Fractales orgánicos bajo transformaciones topológicas (Sketchfab organic)</a></li>
+<li class="chapter" data-level="4.3" data-path="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html"><a href="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html#la-figura-humana-como-un-fractal-fractal-body-modelado"><i class="fa fa-check"></i><b>4.3</b> La figura humana como un fractal (fractal body modelado)</a></li>
+<li class="chapter" data-level="4.4" data-path="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html"><a href="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html#fractal-en-el-canon"><i class="fa fa-check"></i><b>4.4</b> Fractal en el canon</a></li>
+<li class="chapter" data-level="4.5" data-path="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html"><a href="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html#softwares-generadores-de-fractales-3d-y-3d"><i class="fa fa-check"></i><b>4.5</b> Software’s generadores de Fractales 3D y 3D</a></li>
+<li class="chapter" data-level="4.6" data-path="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html"><a href="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html#paisajes-urbanos-y-rurales-como-fractales-mandelbulber"><i class="fa fa-check"></i><b>4.6</b> Paisajes urbanos y rurales como fractales (Mandelbulber)</a></li>
+<li class="chapter" data-level="4.7" data-path="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html"><a href="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html#composición-fractales-mixta"><i class="fa fa-check"></i><b>4.7</b> Composición fractales mixta</a></li>
+<li class="chapter" data-level="4.8" data-path="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html"><a href="aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas.html#exposición-de-trabajos"><i class="fa fa-check"></i><b>4.8</b> Exposición de trabajos ()</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="fractales.html"><a href="fractales.html"><i class="fa fa-check"></i><b>5</b> Fractales</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="fractales.html"><a href="fractales.html#fractales-bidimensionales"><i class="fa fa-check"></i><b>5.1</b> Fractales bidimensionales</a></li>
+<li class="chapter" data-level="5.2" data-path="fractales.html"><a href="fractales.html#fractales-tridimensionales"><i class="fa fa-check"></i><b>5.2</b> Fractales tridimensionales</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="fractales.html"><a href="fractales.html#números-complejos"><i class="fa fa-check"></i><b>5.2.1</b> Números complejos</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="topologia-y-geometria-diferencial-de-las-formas.html"><a href="topologia-y-geometria-diferencial-de-las-formas.html"><i class="fa fa-check"></i><b>6</b> Topologia y geometria diferencial de las formas</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="topologia-y-geometria-diferencial-de-las-formas.html"><a href="topologia-y-geometria-diferencial-de-las-formas.html#ejercicios"><i class="fa fa-check"></i><b>6.1</b> Ejercicios</a></li>
+</ul></li>
+<li class="appendix"><span><b>Apendice</b></span></li>
+<li class="chapter" data-level="A" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>A</b> Proporción y canon</a>
+<ul>
+<li class="chapter" data-level="A.1" data-path="intro.html"><a href="intro.html#razón"><i class="fa fa-check"></i><b>A.1</b> Razón</a></li>
+<li class="chapter" data-level="A.2" data-path="intro.html"><a href="intro.html#proporciones"><i class="fa fa-check"></i><b>A.2</b> Proporciones</a></li>
+<li class="chapter" data-level="A.3" data-path="intro.html"><a href="intro.html#canon"><i class="fa fa-check"></i><b>A.3</b> Canon</a></li>
+</ul></li>
+<li class="chapter" data-level="B" data-path="perspectiva-cónica.html"><a href="perspectiva-cónica.html"><i class="fa fa-check"></i><b>B</b> Perspectiva cónica</a>
+<ul>
+<li class="chapter" data-level="B.1" data-path="perspectiva-cónica.html"><a href="perspectiva-cónica.html#raices-de-una-ecuacion-de-segundo-grado"><i class="fa fa-check"></i><b>B.1</b> Raices de una ecuacion de segundo grado</a></li>
+<li class="chapter" data-level="B.2" data-path="perspectiva-cónica.html"><a href="perspectiva-cónica.html#propiedades-de-una-ecuacion-de-segundo-grado"><i class="fa fa-check"></i><b>B.2</b> Propiedades de una ecuacion de segundo grado</a></li>
+</ul></li>
+<li class="chapter" data-level="C" data-path="ecacuaciones-lineales-de-primer-grado.html"><a href="ecacuaciones-lineales-de-primer-grado.html"><i class="fa fa-check"></i><b>C</b> Ecacuaciones lineales de primer grado</a>
+<ul>
+<li class="chapter" data-level="C.1" data-path="ecacuaciones-lineales-de-primer-grado.html"><a href="ecacuaciones-lineales-de-primer-grado.html#soluciones-de-ecuacuiones-lineales-de-primer-grado"><i class="fa fa-check"></i><b>C.1</b> Soluciones de ecuacuiones lineales de primer grado</a></li>
+<li class="chapter" data-level="C.2" data-path="ecacuaciones-lineales-de-primer-grado.html"><a href="ecacuaciones-lineales-de-primer-grado.html#soluciones"><i class="fa fa-check"></i><b>C.2</b> Soluciones …</a></li>
+<li class="chapter" data-level="C.3" data-path="ecacuaciones-lineales-de-primer-grado.html"><a href="ecacuaciones-lineales-de-primer-grado.html#forma-matricial-de-una-ecuación-lineal"><i class="fa fa-check"></i><b>C.3</b> Forma matricial de una ecuación lineal</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="referencias.html"><a href="referencias.html"><i class="fa fa-check"></i>Referencias</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Fractales en el arte</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="elementos-básicos-de-un-fractal-geométrico" class="section level1" number="1">
+<h1><span class="header-section-number">Capítulo 1</span> Elementos básicos de un fractal geométrico</h1>
+<p>wwwwwwwwww</p>
+<div id="conjuntos-reconocer-conjuntos-como-una---conexidad---mobius-y-klein" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Conjuntos (Reconocer conjuntos como una  - conexidad - Mobius y Klein)</h2>
+<!--
+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
+https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+-->
+<p><span class="citation">(<a href="#ref-leithold1990calculus" role="doc-biblioref">Leithold 1990</a>)</span></p>
+<p><em>fracción impropia</em> </p>
+</div>
+<div id="operaciones-con-conjuntos-relaciones-unión-intersección-diferencia-diferencia-simétrica-etc" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Operaciones con conjuntos (Relaciones – unión-intersección-diferencia-diferencia simétrica, etc)</h2>
+<p><span class="citation">(<a href="#ref-stigt1996" role="doc-biblioref">Stigt 1996</a>)</span>
+<span class="citation">(<a href="#ref-langlois2021" role="doc-biblioref">Langlois et al. 2021</a>)</span></p>
+</div>
+<div id="cartesianas-2d-y-3d-plano-y-sólidos---representación-de-puntos-lineas-y-planos-geogebra" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span>  cartesianas 2d y 3d (Plano y sólidos) - representación de puntos, lineas y planos (Geogebra)</h2>
+<p>Es necesario un sistema de refrencia en la representacion por eso es impostante su estudio</p>
+</div>
+<div id="transformaciones-elementales-sobre-formas-2d-y-3d" class="section level2" number="1.4">
+<h2><span class="header-section-number">1.4</span> Transformaciones elementales sobre formas 2D y 3D</h2>
+<div id="traslacion" class="section level3" number="1.4.1">
+<h3><span class="header-section-number">1.4.1</span> Traslacion</h3>
+</div>
+<div id="rotación" class="section level3" number="1.4.2">
+<h3><span class="header-section-number">1.4.2</span> Rotación</h3>
+</div>
+<div id="homotecia" class="section level3" number="1.4.3">
+<h3><span class="header-section-number">1.4.3</span> Homotecia</h3>
+</div>
+<div id="reflexión" class="section level3" number="1.4.4">
+<h3><span class="header-section-number">1.4.4</span> Reflexión</h3>
+</div>
+</div>
+<div id="transformaciones-topológicas-taza---donuts-zbrush-metamorfosis" class="section level2" number="1.5">
+<h2><span class="header-section-number">1.5</span> Transformaciones topológicas (Taza - donuts – Zbrush metamorfosis)</h2>
+</div>
+<div id="recursividad-o-iteración-de-transformaciones-2d-y-3d-secuencias" class="section level2" number="1.6">
+<h2><span class="header-section-number">1.6</span> Recursividad o iteración de transformaciones 2D y 3D (Secuencias)</h2>
+</div>
+<div id="principios-de-la-composición-y-las-transformaciones-relación-fractal" class="section level2" number="1.7">
+<h2><span class="header-section-number">1.7</span> Principios de la composición y las transformaciones (Relación-fractal)</h2>
+</div>
+<div id="sustentación-de-trabajos" class="section level2" number="1.8">
+<h2><span class="header-section-number">1.8</span> Sustentación de trabajos ()</h2>
+
+</div>
+</div>
+<h3>Referencias</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-langlois2021" class="csl-entry">
+Langlois, Thomas A., Nori Jacoby, Jordan W. Suchow, and Thomas L. Griffiths. 2021. <span>“Serial Reproduction Reveals the Geometry of Visuospatial Representations.”</span> <em>Proceedings of the National Academy of Sciences</em> 118 (13). <a href="https://doi.org/10.1073/pnas.2012938118">https://doi.org/10.1073/pnas.2012938118</a>.
+</div>
+<div id="ref-leithold1990calculus" class="csl-entry">
+Leithold, Louis. 1990. <em>The Calculus of a Single Variable with Analytic Geometry</em>. Harper &amp; Row.
+</div>
+<div id="ref-stigt1996" class="csl-entry">
+Stigt, Walter P. Van. 1996. <span>“Introduction to Life, Art, and Mysticism.”</span> <em>Notre Dame Journal of Formal Logic</em> 37 (3): 381–87. <a href="https://doi.org/10.1305/ndjfl/1039886517">https://doi.org/10.1305/ndjfl/1039886517</a>.
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="introducción.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="número-áureo-como-un-fractal.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["z_1.pdf", "z_1.epub", "z_1.rord", "z_1.TXT"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

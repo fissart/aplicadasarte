@@ -1,0 +1,31 @@
+# Número  áureo como un fractal
+
+
+El numero $\phi=1.618$ recibe el nombre de numero áureo, numero mágico.
+$\int_1$
+
+
+
+## Número áureo, proporción áurea, sección áurea (Aplicaciones)
+
+^^
+
+## Rectángulo áureo (Rectángulos áureos) y composición
+
+
+## Sucesiones de Fibonnacci relacionado con el número áureo
+
+La sucecion de Fibonnacci es la sucecion de numeros entros postivos
+$$F=S_n={1,1,2,3,5,8,13,21,34, \ldots}$$
+
+## Rectángulos dinámicos
+
+
+
+## Pentágono y triángulo áureo (Composición).
+
+## El dodecaedro construcción y la relación con el número áureo
+
+## El icosaedro construcción y la relación con el número áureo
+
+## Proporción áurea de la figura humana

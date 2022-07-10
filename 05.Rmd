@@ -1,0 +1,46 @@
+# Fractales
+
+En este capitulo se trata de los *objetos plasticos* de característica ***secuencial y fraccionaria***.
+
+```{definition, fractal, name="Fractales"}
+Son objetos geometricos bidimensionales o tridimensionales cuya estructura esta compuesta por partes que son copias transformadas del objeto total.
+```
+
+Las transformaciones aquí consideradas son aquellas que conservan en lo posible las propiedades originales del objeto, es decir las transformaciones son las elementales (Traslacion, Rotacion, Homotescia, Reflexión) y los morfismos (isomorfismo, homeomorfismo, isometria, etc).
+
+```{example}
+En la naturaleza se peden observe muchos ejemplares tales como las nuves los horatlizas
+```
+
+```{r Doge, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Hola"}
+if (knitr::is_html_output()) {
+knitr::include_url("https://www.youtube.com/embed/TTpbP5BVtiA")
+} else {
+knitr::include_graphics('proporcion.svg')
+}
+```
+
+
+
+```{example}
+En la naturaleza se peden observe muchos ejemplares tales como las nuves los hortalizas, etc.
+```
+
+## Fractales bidimensionales
+**Copo de nieve de Koch**
+
+
+
+
+
+
+
+
+## Fractales tridimensionales
+
+
+### Números complejos
+
+```{definition, julia, name="Conjuntos de Julia"}
+Son conjuntos cuya forma bidimensionales o tridimensionales cuya estructura esta compuesta por partes que son copias transformadas del objeto total.
+```

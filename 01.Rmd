@@ -1,0 +1,38 @@
+\mainmatter
+
+# Elementos básicos de un fractal geométrico
+wwwwwwwwww
+
+## Conjuntos (Reconocer conjuntos como una \emph{forma} - conexidad - Mobius y Klein)
+<!--
+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
+https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+-->
+[@leithold1990calculus]
+
+*fracción impropia* \index{fracción impropia}
+
+
+## Operaciones con conjuntos (Relaciones -- unión-intersección-diferencia-diferencia simétrica, etc)
+
+[@stigt1996]
+[@langlois2021]
+
+## \emph{Coordenadas} cartesianas 2d y 3d (Plano y sólidos) - representación de puntos, lineas y planos (Geogebra)
+
+Es necesario un sistema de refrencia en la representacion por eso es impostante su estudio
+
+## Transformaciones elementales sobre formas 2D y 3D
+
+### Traslacion
+### Rotación
+### Homotecia
+### Reflexión
+
+## Transformaciones topológicas (Taza - donuts -- Zbrush metamorfosis)
+
+## Recursividad o iteración de transformaciones 2D y 3D (Secuencias)
+
+## Principios de la composición y las transformaciones (Relación-fractal)         
+
+## Sustentación de trabajos (\emph{Objeto fractal, geométrico digital o manual})

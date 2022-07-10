@@ -1,0 +1,87 @@
+# Aplicaciones de los fractales en composiciones complejas (abstracto-figurativas)
+
+En este capítulo se estudiará que los __objetos artísticos__ siempre se componen de una __estructura fractal__. Estos aspectos son poco considerados al aplicar los fractales en composiciones complejas. Que se realizan de manera implícita e intuitiva en campos  abstracto-figurativas.
+
+## Secuencias orgánicas bajo transformaciones topológicas
+
+Se sabe que en la construcción de fractales existen dos tipos de transformaciones, _las elementales y las topológicas_. En esta sección trataremos sobre las _transformaciones topológicas_ con el objetivo de _modificar las formas de los términos_ de una secuencia de manera que cada termino que se suceda, mantenga en lo posible las _formas de los términos adyacentes_. En relación con el estudio comparativo de los seres vivos se tiene la siguiente definición, lo cual tiene mucha relación con los objetivos de esta sección y los subsiguientes @homology.
+
+::: {.definition #homologia name="Homología"}
+La **homología** es la _relación_ que existe entre _dos partes orgánicas diferentes_ de _dos organismos distintos_ cuando sus determinantes genéticos tienen el mismo origen evolutivo.
+:::
+
+::: {.definition #homotopia name="Homotopía"}
+En topología, y más precisamente en topología algebraica, dos aplicaciones continuas de un espacio topológico en otro se dicen homótopas (del griego homos = mismo y topos = lugar) si una de ellas puede "deformarse continuamente" en la otra.
+:::
+
+```{r homotopia, echo=FALSE, out.width='50%', fig.pos = "!ht", fig.align="center", fig.cap="Los dos caminos en líneas punteadas que se muestran arriba son homótopos en relación a sus extremos. La animación muestra una posible homotopía entre ellos"}
+knitr::include_graphics('homotopia.png')
+```
+
+Como @homology comenta:
+
+> Existe homología entre órganos dados de dos especies diferentes, cuando ambos derivan del órgano correspondiente de su antepasado común, con independencia de cuán dispares puedan haber llegado a ser. Las cuatro extremidades pares de los vertebrados con mandíbula (gnatóstomos), desde los tiburones hasta las aves o los mamíferos, son homólogas. De la misma manera, el extremo de la pata de un caballo es homólogo al dedo mediano de la mano y el pie humano.
+
+::: {.remark #homologiaremark name="Relación entre la homología y la sucesión bajo transformaciones topológicas"}
+
+Se observa que la *homología* \index{homología} es una *sucesión* de formas que mantiene *similaridad* entre sus términos o elementos, es importante que la diferencia entre un termino y otro esta afectada por una ligera __transformación topológica__\index{transformación topológica}.
+
+<!--
+\@ref(rmk:homologiaremark)
+-->
+:::
+
+En la observación anterior hace referencia de que todo los objetos de tipo secuencial, mantiene la homología.
+
+```{r homologia, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Homología de varios huesos (mostrados en distintos colores) de las extremidades delanteras de cuatro vertebrados"}
+knitr::include_graphics('homologia.png')
+```
+
+
+```{r Suscecion, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Sucesión orgánica bajo transformaciones topológicas"}
+if (knitr::is_html_output()) {
+knitr::include_url("https://sketchfab.com/models/703d3d2905534635b60e0fd649f6d912/embed")
+} else {
+knitr::include_graphics('sucecion.png')
+}
+```
+
+
+
+## Fractales orgánicos bajo transformaciones topológicas (Sketchfab organic)
+
+Se sabe que un fractal es una colección de sucesiones cuyos términos se constituyen de secuencias de formas homólogas. Es decir _una secesión de sucesiones_ por tanto esas formas que componen son copias transformadas topológicamente.
+
+
+```{r Sketch, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Fractales orgánicos bajo transformaciones topológicas - Sketchfab organic"}
+if (knitr::is_html_output()) {
+knitr::include_url("https://sketchfab.com/models/d8b34c3d654d46729aaedca61b367957/embed")
+} else {
+knitr::include_graphics('Sketch.png')
+}
+```
+
+En l Figura \@ref(fig:Sketch) se tiene la forma espiralada se sucede de acuerdo a la transformación topológica  en cada uno de los términos.
+
+
+```{r Sketch2, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Fractales orgánicos bajo transformaciones topológicas - Sketchfab organic"}
+if (knitr::is_html_output()) {
+knitr::include_url("https://sketchfab.com/models/a4bbfae822f04b648f67e908396bc9f2/embed")
+} else {
+knitr::include_graphics('Sketch2.png')
+}
+```
+
+
+
+## La figura humana como un fractal (fractal body modelado)
+
+## Fractal en el canon
+
+## Software's generadores de Fractales 3D y 3D
+
+## Paisajes urbanos y rurales como fractales (Mandelbulber)
+
+## Composición fractales mixta
+
+## Exposición de trabajos (\emph{Paisaje fractal 3d digital, animado})
