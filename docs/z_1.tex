@@ -48,6 +48,46 @@
   urlcolor=Blue,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -58,19 +98,6 @@
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
-\usepackage{graphicx}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-% Set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -137,7 +164,7 @@
 \makeatother
 \subtitle{Arte y matemáticas aplicadas}
 \author{Ricardo Michel MALLQUI BAÑOS}
-\date{2022-07-09}
+\date{2022-07-10}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Teorema}[chapter]
@@ -164,7 +191,7 @@
 %\cleardoublepage\newpage
 \thispagestyle{empty}
 \begin{center}
-\includegraphics{U.pdf}
+%\includegraphics{U.pdf}
 \end{center}
 
 %\setlength{\abovedisplayskip}{-5pt}
@@ -426,24 +453,6 @@ si \(a_n\) es n termino geenral de la sucecion de Fibonnacci entonces
 \hypertarget{ejemplo-aplicativo}{%
 \subsection{Ejemplo aplicativo}\label{ejemplo-aplicativo}}
 
-\begin{longtable}[]{@{}c@{}}
-\toprule
-\includegraphics{ap1.jpeg} \\
-\midrule
-\endhead
-\emph{Componiendo sobre la estructura del rectángulo áureo} \\
-\bottomrule
-\end{longtable}
-
-\begin{longtable}[]{@{}c@{}}
-\toprule
-\includegraphics{ap2.jpeg} \\
-\midrule
-\endhead
-\emph{Sin la estructura del rectángulo áureo} \\
-\bottomrule
-\end{longtable}
-
 \hypertarget{aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas}{%
 \chapter{Aplicaciones de los fractales en composiciones complejas (abstracto-figurativas)}\label{aplicaciones-de-los-fractales-en-composiciones-complejas-abstracto-figurativas}}
 
@@ -531,11 +540,142 @@ En l Figura \ref{fig:Sketch} se tiene la forma espiralada se sucede de acuerdo a
 \hypertarget{la-figura-humana-como-un-fractal-fractal-body-modelado}{%
 \section{La figura humana como un fractal (fractal body modelado)}\label{la-figura-humana-como-un-fractal-fractal-body-modelado}}
 
+\href{https://www.behance.net/gallery/11339339/FRACTAL-BODY}{Body fractal}
+
+\begin{figure}[!ht]
+
+{\centering \includegraphics[width=0.7\linewidth]{body1} 
+
+}
+
+\caption{Construccion de la figura humana manifestando fractal}\label{fig:body1}
+\end{figure}
+
+\begin{figure}[!ht]
+
+{\centering \includegraphics[width=1\linewidth]{body} 
+
+}
+
+\caption{Los ejes de la figura humana se suceden de acuerdo a la secuencia de segmentos de curvas y curvaturas de estas}\label{fig:body}
+\end{figure}
+\begin{figure}[!ht]
+
+{\centering \includegraphics[width=1\linewidth]{body2} 
+
+}
+
+\caption{La estructura de la figura se sucede de acuerdo a una secuencia, además las protuberencias de los músculos son una coleccion de secuencias (fractal)}\label{fig:body2}
+\end{figure}
+
 \hypertarget{fractal-en-el-canon}{%
 \section{Fractal en el canon}\label{fractal-en-el-canon}}
 
-\hypertarget{softwares-generadores-de-fractales-3d-y-3d}{%
-\section{Software's generadores de Fractales 3D y 3D}\label{softwares-generadores-de-fractales-3d-y-3d}}
+\hypertarget{softwares-generadores-de-fractales-2d-y-3d}{%
+\section{Software's generadores de Fractales 2D y 3D}\label{softwares-generadores-de-fractales-2d-y-3d}}
+
+\hypertarget{pov-ray-3d}{%
+\subsection{POV-Ray (3D)}\label{pov-ray-3d}}
+
+La persistencia de Vision Raytracer es una herramienta de software libre de alta calidad para crear impresionantes gráficos tridimensionales . El código fuente está disponible para aquellos que quieran hacer sus propios puertos.
+
+\begin{figure}[!ht]
+
+{\centering \includegraphics[width=1\linewidth]{povray} 
+
+}
+
+\caption{Homología de varios huesos (mostrados en distintos colores) de las extremidades delanteras de cuatro vertebrados}\label{fig:ray}
+\end{figure}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{\#version 3.6;}
+\NormalTok{global\_settings\{ assumed\_gamma 1.3 max\_trace\_level 50\}}
+\NormalTok{\#include "colors.inc"}
+\NormalTok{\#include "functions.inc"}
+\NormalTok{\#include "logo.inc"}
+
+\NormalTok{background \{ color White \}}
+\NormalTok{camera\{ location  \textless{}1,{-}2,{-}1\textgreater{}  }
+\NormalTok{        angle 0 // direction 2*z}
+\NormalTok{        right    x*image\_width/image\_height}
+\NormalTok{        // keep propotions with any aspect ratio}
+\NormalTok{        look\_at   \textless{}1,{-}.4,0\textgreater{}}
+\NormalTok{      \}}
+\NormalTok{light\_source \{\textless{}{-}140,200, 300\textgreater{}}
+\NormalTok{   rgb \textless{}1.0, 1.0, 0.95\textgreater{}*1.5 \}}
+\NormalTok{light\_source \{\textless{}{-}140,200, {-}300\textgreater{}}
+\NormalTok{   rgb \textless{}1.0, 1.0, 0.95\textgreater{}*1.5 shadowless\}}
+\NormalTok{light\_source \{\textless{} 140,200,{-}300\textgreater{}}
+\NormalTok{   rgb \textless{}0.9, 0.9, 1.00\textgreater{}*1.9 \}}
+
+\NormalTok{julia\_fractal\{ \textless{}{-}0.023,0.8,{-}0.83,{-}0.095\textgreater{}}
+\NormalTok{   quaternion // quaternion hypercomplex}
+\NormalTok{   cube             // Types: sqr  cube}
+\NormalTok{   max\_iteration 20}
+\NormalTok{   precision 200     // 10...500}
+
+\NormalTok{   texture\{}
+\NormalTok{  //   pigment\{ color rgb\textless{}0.85,0.1,0.1\textgreater{}\}}
+\NormalTok{    // finish \{ phong 1\}}
+\NormalTok{     pigment \{White*0.8\}}
+\NormalTok{     //finish \{phong 0.7 reflection 0.1\}}
+\NormalTok{     //normal \{bumps 0.05 scale 1\}}
+
+\NormalTok{   \} // end of texture}
+\NormalTok{   scale\textless{}.5,.5,.5\textgreater{}}
+\NormalTok{   rotate\textless{}0,0,0\textgreater{}}
+\NormalTok{   translate\textless{}0.5,0,{-}0.5\textgreater{}}
+\NormalTok{\} // end of julia\_fractal {-}{-}{-}{-}{-}{-}{-}{-}{-}{-}}
+
+\NormalTok{    julia\_fractal\{ \textless{}{-}0.023,0.8,{-}0.83,{-}0.095\textgreater{}}
+\NormalTok{   quaternion // quaternion hypercomplex}
+\NormalTok{   cube             // Types: sqr  cube}
+\NormalTok{   max\_iteration 20}
+\NormalTok{   precision 200     // 10...500}
+
+\NormalTok{   texture\{}
+\NormalTok{  //   pigment\{ color rgb\textless{}0.85,0.1,0.1\textgreater{}\}}
+\NormalTok{    // finish \{ phong 1\}}
+\NormalTok{     pigment \{Red*0.8\}}
+\NormalTok{     //finish \{phong 0.7 reflection 0.1\}}
+\NormalTok{     //normal \{bumps 0.05 scale 1\}}
+
+\NormalTok{   \} // end of texture}
+\NormalTok{   scale\textless{}0.5,.5,.5\textgreater{}}
+\NormalTok{   rotate\textless{}0,20,0\textgreater{}}
+\NormalTok{   translate\textless{}0.9,0,0.5\textgreater{}}
+\NormalTok{\} // end of julia\_fractal {-}{-}{-}{-}{-}{-}{-}{-}{-}{-}}
+
+\NormalTok{    julia\_fractal\{ \textless{}{-}0.023,0.8,{-}0.83,{-}0.095\textgreater{}}
+\NormalTok{   quaternion // quaternion hypercomplex}
+\NormalTok{   cube             // Types: sqr  cube}
+\NormalTok{   max\_iteration 20}
+\NormalTok{   precision 200     // 10...500}
+
+\NormalTok{   texture\{}
+\NormalTok{  //   pigment\{ color rgb\textless{}0.85,0.1,0.1\textgreater{}\}}
+\NormalTok{    // finish \{ phong 1\}}
+\NormalTok{     pigment \{Yellow*0.8\}}
+\NormalTok{     //finish \{phong 0.7 reflection 0.1\}}
+\NormalTok{     //normal \{bumps 0.05 scale 1\}}
+
+\NormalTok{   \} // end of texture}
+\NormalTok{   scale\textless{}2,2,2\textgreater{}}
+\NormalTok{   rotate\textless{}0,0,0\textgreater{}}
+\NormalTok{   translate\textless{}0,0,1.5\textgreater{}}
+\NormalTok{\} //}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{mandelbulb-3d}{%
+\subsection{Mandelbulb-3d}\label{mandelbulb-3d}}
+
+Mandelbulb 3D es una aplicación de software libre creada para imágenes fractales en 3D. Desarrollado por Jesse y un grupo de colaboradores de Fractal Forums , basado en el trabajo Mandelbulb de Daniel White y Paul Nylander, MB3D formula docenas de ecuaciones no lineales en una asombrosa variedad de objetos fractales. El entorno de renderizado 3D incluye iluminación, color, especularidad, profundidad de campo, efectos de sombra y brillo; permitiendo al usuario un control fino sobre los efectos de imagen. \href{https://www.mandelbulb.com/2014/mandelbulb-3d-mb3d-fractal-rendering-software/}{mandelbulb-3d}.
+
+\hypertarget{wwwwwwwww}{%
+\subsection{Wwwwwwwww}\label{wwwwwwwww}}
 
 \hypertarget{paisajes-urbanos-y-rurales-como-fractales-mandelbulber}{%
 \section{Paisajes urbanos y rurales como fractales (Mandelbulber)}\label{paisajes-urbanos-y-rurales-como-fractales-mandelbulber}}
@@ -558,7 +698,7 @@ En este capitulo se trata de los \emph{objetos plasticos} de característica \te
 Las transformaciones aquí consideradas son aquellas que conservan en lo posible las propiedades originales del objeto, es decir las transformaciones son las elementales (Traslacion, Rotacion, Homotescia, Reflexión) y los morfismos (isomorfismo, homeomorfismo, isometria, etc).
 
 \begin{example}
-\protect\hypertarget{exm:unnamed-chunk-2}{}\label{exm:unnamed-chunk-2}En la naturaleza se peden observe muchos ejemplares tales como las nuves los horatlizas
+\protect\hypertarget{exm:unnamed-chunk-3}{}\label{exm:unnamed-chunk-3}En la naturaleza se peden observe muchos ejemplares tales como las nuves los horatlizas
 \end{example}
 
 \begin{figure}[!ht]
@@ -571,7 +711,7 @@ Las transformaciones aquí consideradas son aquellas que conservan en lo posible
 \end{figure}
 
 \begin{example}
-\protect\hypertarget{exm:unnamed-chunk-3}{}\label{exm:unnamed-chunk-3}En la naturaleza se peden observe muchos ejemplares tales como las nuves los hortalizas, etc.
+\protect\hypertarget{exm:unnamed-chunk-4}{}\label{exm:unnamed-chunk-4}En la naturaleza se peden observe muchos ejemplares tales como las nuves los hortalizas, etc.
 \end{example}
 
 \hypertarget{fractales-bidimensionales}{%

@@ -76,9 +76,120 @@ knitr::include_graphics('Sketch2.png')
 
 ## La figura humana como un fractal (fractal body modelado)
 
+
+[Body fractal](https://www.behance.net/gallery/11339339/FRACTAL-BODY)
+
+```{r body1, echo=FALSE, out.width='70%', fig.pos = "!ht", fig.align="center", fig.cap="Construccion de la figura humana manifestando fractal"}
+knitr::include_graphics('body1.png')
+```
+
+
+```{r body, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Los ejes de la figura humana se suceden de acuerdo a la secuencia de segmentos de curvas y curvaturas de estas"}
+knitr::include_graphics('body.png')
+```
+```{r body2, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="La estructura de la figura se sucede de acuerdo a una secuencia, además las protuberencias de los músculos son una coleccion de secuencias (fractal)"}
+knitr::include_graphics('body2.png')
+```
+
+
 ## Fractal en el canon
 
-## Software's generadores de Fractales 3D y 3D
+
+## Software's generadores de Fractales 2D y 3D
+
+###  POV-Ray (3D)
+
+
+La persistencia de Vision Raytracer es una herramienta de software libre de alta calidad para crear impresionantes gráficos tridimensionales . El código fuente está disponible para aquellos que quieran hacer sus propios puertos.
+
+```{r ray, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Homología de varios huesos (mostrados en distintos colores) de las extremidades delanteras de cuatro vertebrados"}
+knitr::include_graphics('povray.png')
+```
+
+````{verbatim}
+#version 3.6;
+global_settings{ assumed_gamma 1.3 max_trace_level 50}
+#include "colors.inc"
+#include "functions.inc"
+#include "logo.inc"
+
+background { color White }
+camera{ location  <1,-2,-1>  
+        angle 0 // direction 2*z
+        right    x*image_width/image_height
+        // keep propotions with any aspect ratio
+        look_at   <1,-.4,0>
+      }
+light_source {<-140,200, 300>
+   rgb <1.0, 1.0, 0.95>*1.5 }
+light_source {<-140,200, -300>
+   rgb <1.0, 1.0, 0.95>*1.5 shadowless}
+light_source {< 140,200,-300>
+   rgb <0.9, 0.9, 1.00>*1.9 }
+
+julia_fractal{ <-0.023,0.8,-0.83,-0.095>
+   quaternion // quaternion hypercomplex
+   cube             // Types: sqr  cube
+   max_iteration 20
+   precision 200     // 10...500
+
+   texture{
+  //   pigment{ color rgb<0.85,0.1,0.1>}
+    // finish { phong 1}
+     pigment {White*0.8}
+     //finish {phong 0.7 reflection 0.1}
+     //normal {bumps 0.05 scale 1}
+
+   } // end of texture
+   scale<.5,.5,.5>
+   rotate<0,0,0>
+   translate<0.5,0,-0.5>
+} // end of julia_fractal ----------
+
+    julia_fractal{ <-0.023,0.8,-0.83,-0.095>
+   quaternion // quaternion hypercomplex
+   cube             // Types: sqr  cube
+   max_iteration 20
+   precision 200     // 10...500
+
+   texture{
+  //   pigment{ color rgb<0.85,0.1,0.1>}
+    // finish { phong 1}
+     pigment {Red*0.8}
+     //finish {phong 0.7 reflection 0.1}
+     //normal {bumps 0.05 scale 1}
+
+   } // end of texture
+   scale<0.5,.5,.5>
+   rotate<0,20,0>
+   translate<0.9,0,0.5>
+} // end of julia_fractal ----------
+
+    julia_fractal{ <-0.023,0.8,-0.83,-0.095>
+   quaternion // quaternion hypercomplex
+   cube             // Types: sqr  cube
+   max_iteration 20
+   precision 200     // 10...500
+
+   texture{
+  //   pigment{ color rgb<0.85,0.1,0.1>}
+    // finish { phong 1}
+     pigment {Yellow*0.8}
+     //finish {phong 0.7 reflection 0.1}
+     //normal {bumps 0.05 scale 1}
+
+   } // end of texture
+   scale<2,2,2>
+   rotate<0,0,0>
+   translate<0,0,1.5>
+} //
+````
+
+### Mandelbulb-3d
+
+Mandelbulb 3D es una aplicación de software libre creada para imágenes fractales en 3D. Desarrollado por Jesse y un grupo de colaboradores de Fractal Forums , basado en el trabajo Mandelbulb de Daniel White y Paul Nylander, MB3D formula docenas de ecuaciones no lineales en una asombrosa variedad de objetos fractales. El entorno de renderizado 3D incluye iluminación, color, especularidad, profundidad de campo, efectos de sombra y brillo; permitiendo al usuario un control fino sobre los efectos de imagen. [mandelbulb-3d](https://www.mandelbulb.com/2014/mandelbulb-3d-mb3d-fractal-rendering-software/).
+
+### Wwwwwwwww
 
 ## Paisajes urbanos y rurales como fractales (Mandelbulber)
 

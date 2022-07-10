@@ -100,7 +100,7 @@ $$ \lim_{n \to \infty} \frac{a_n}{a_{n-1}}=\phi  $$
 
 ### Ejemplo aplicativo
 
-
+<!--
 | ![space-1.jpg](ap1.jpeg) |
 |:--:|
 | *Componiendo sobre la estructura del rectángulo áureo* |
@@ -108,3 +108,4 @@ $$ \lim_{n \to \infty} \frac{a_n}{a_{n-1}}=\phi  $$
 | ![space-1.jpg](ap2.jpeg) |
 |:--:|
 | *Sin la estructura del rectángulo áureo* |
+-->
