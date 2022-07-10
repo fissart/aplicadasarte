@@ -1,0 +1,630 @@
+---
+title: "Fractales en el arte"
+subtitle: "Arte y matemáticas aplicadas"
+author: "Ricardo Michel MALLQUI BAÑOS"
+date: "`r Sys.Date()`"
+institute: Universidad Nacional San Cristóbal De Huamanga
+site: bookdown::bookdown_site
+documentclass: krantz
+link-citations: yes
+subparagraph: yes
+colorlinks: yes
+fontsize: 12pt
+bibliography:
+- book.bib
+- packages.bib
+biblio-style: apalike
+lot: yes
+lof: yes
+monofont: Source Code Pro
+monofontoptions: Scale=0.9
+toc_appendix: yes
+description: ''
+---
+
+```{=tex}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\I}{\mathbb{I}}
+\newcommand{\f}{\mathbb{f}}
+\newcommand{\X}{\mathbb{X}}
+\newcommand{\D}{\mathbb{D}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\norm}[1]{\left\Vert#1\right\Vert}
+\newcommand{\abs}[1]{\left\vert#1\right\vert}
+\newcommand{\set}[1]{\left\{#1\right\}}
+\newcommand{\seq}[1]{\left<#1\right>}
+\newcommand{\co}[1]{\left[#1\right]}
+\newcommand{\cc}[1]{\left(#1\right)}
+\newcommand{\J}{\mathcal{J}}
+\newcommand{\K}{\mathcal{K}}
+\newcommand{\M}{\mathcal{M}}
+\newcommand{\F}{\mathcal{F}}
+```
+# Resumen {.unnumbered}
+
+Las matemáticas están presentes implicita e explicitamente en todas las ramas del conocimiento humano. En particular en el arte plástico.
+
+El contenido esta basado en razones y proporciones, canon de la figura humana, sucesiones o recursividad, sucesión de Fibonacci, número áureo, rectángulo áureo, sólidos platónicos, perspectiva cónica, fractales, geometría diferencial de las superficies, topología.
+
+# Introducción {.unnumbered}
+
+Las aplicaciones ...
+
+El libro se compone de ...
+
+<!--chapter:end:index.Rmd-->
+
+\mainmatter
+
+# Elementos básicos de un fractal geométrico
+wwwwwwwwww
+
+## Conjuntos (Reconocer conjuntos como una \emph{forma} - conexidad - Mobius y Klein)
+<!--
+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
+https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+-->
+[@leithold1990calculus]
+
+*fracción impropia* \index{fracción impropia}
+
+
+## Operaciones con conjuntos (Relaciones -- unión-intersección-diferencia-diferencia simétrica, etc)
+
+[@stigt1996]
+[@langlois2021]
+
+## \emph{Coordenadas} cartesianas 2d y 3d (Plano y sólidos) - representación de puntos, lineas y planos (Geogebra)
+
+Es necesario un sistema de refrencia en la representacion por eso es impostante su estudio
+
+## Transformaciones elementales sobre formas 2D y 3D
+
+### Traslacion
+### Rotación
+### Homotecia
+### Reflexión
+
+## Transformaciones topológicas (Taza - donuts -- Zbrush metamorfosis)
+
+## Recursividad o iteración de transformaciones 2D y 3D (Secuencias)
+
+## Principios de la composición y las transformaciones (Relación-fractal)         
+
+## Sustentación de trabajos (\emph{Objeto fractal, geométrico digital o manual})
+
+<!--chapter:end:01.Rmd-->
+
+# Número  áureo como un fractal
+
+
+El numero $\phi=1.618$ recibe el nombre de numero áureo, numero mágico.
+$\int_1$
+
+
+
+## Número áureo, proporción áurea, sección áurea (Aplicaciones)
+
+^^
+
+## Rectángulo áureo (Rectángulos áureos) y composición
+
+
+## Sucesiones de Fibonnacci relacionado con el número áureo
+
+La sucecion de Fibonnacci es la sucecion de numeros entros postivos
+$$F=S_n={1,1,2,3,5,8,13,21,34, \ldots}$$
+
+## Rectángulos dinámicos
+
+
+
+## Pentágono y triángulo áureo (Composición).
+
+## El dodecaedro construcción y la relación con el número áureo
+
+## El icosaedro construcción y la relación con el número áureo
+
+## Proporción áurea de la figura humana
+
+<!--chapter:end:02.Rmd-->
+
+# Fractales sobre el conjunto de los números complejos y cuaterniones
+
+## Números complejos.
+
+
+
+## Operaciones con números complejos
+
+```{r complex, echo=FALSE, out.width='100%', out.height='100%', fig.align="center", fig.cap="Esquema de los números complejos"}
+if (knitr::is_html_output()) {
+knitr::include_url("https://www.geogebra.org/classic/wdkjjtjp", height="700")} else {
+knitr::include_graphics('complex.png')
+}
+```
+
+## Funciones en el plano complejo y fractales ($f(z), z\in\mathbb{C}$ cualesquiera)
+
+## Los conjuntos de Mandelbrot ($f(z)=z^2+c$)
+
+## Los conjuntos de Julia ($f(z)=z^2+c$)
+
+## Los cuaterniones y conjuntos de Mandelbrot y Julia 3D (Fractales orgánicos)
+
+## Reconocimiento de fractales sobre formas orgánicas
+
+## Sustentación de trabajos (\emph{Construcción de un fractal orgánico})
+
+El número de oro \index{número de oro} es un número presente en la naturaleza, todo lo creado esta asociado con este número. La manera de recurrencia de las partes de los objetos visualmente atractivos están dispuestas de acuerdo a la razón y proporción del número áureo.
+
+```{definition, aureo, name="Numero áureo"}
+Es un numero
+```
+
+establecido por $\frac{1+\sqrt{5}}{2}=1.618$ denotado por $\phi$ o $\Phi$ es decir $$\phi=\frac{1+\sqrt{5}}{2}=1.618$$
+
+Además la inversa de este numero es $$\phi^{-1}=\frac{1}{\phi}=\frac{\sqrt{5}-1}{2}=0.618$$
+
+## Sección áurea
+
+Es el proceso de generar el numero mediante el uso de una linea y la división que se realiza sobre este. Es decir dado un segmento $AB$, un punto $C$ uubicada entre los extremos $A$ y $B$ es la correspondiente (coloquialmente suele aproximarse con la tercera parte parte de este segmento). Exactamente se obtiene de la siguente manera. La razón de la *longitud de todo el segmento* y la *longitud del segmento mayor* es **proporcional** a la razón de la *longitud del segmento mayor* sobre la *longitud del segmento menor es decir*
+
+$$
+\frac{x+y}{x}=\frac{x}{y} (\#eq:aureo)
+$$
+
+simplificando $$
+xy+y^2=x^2 (\#eq:new)
+$$ es posible hallar el valor de uno de ellos fijando la otra, sea por ejemplo $y=2$ entonces la ecuación \@ref(eq:new) se reduce a $$
+2x+4=x^2\Longleftrightarrow x^2-2x-4=0
+$$
+
+cuyas soluciones son $x_1=2\frac{1+\sqrt{5}}{2}$ y $x_2=2\frac{1-\sqrt{5}}{2}$
+
+en general si $y=r$ entonces a ecuación \@ref(eq:new) se reduce a $$
+rx+r^2=x^2\Longleftrightarrow x^2-rx-r^2=0
+$$
+
+cuyas soluciones son $x_1=r\frac{1+\sqrt{5}}{2}=r\phi$ y $x_2=r\frac{1-\sqrt{5}}{2}=r\left(-\frac{-1+\sqrt{5}}{2}\right)=r\left(-\frac{1}{\phi}\right)$
+
+```{remark}
+La proporción (\ref(eq:aureo) es igual a una constante de prorpocionalidad que es igual a $\phi$ es decir $\frac{x+y}{x}=\frac{x}{y}=\phi$
+```
+
+```{r C2, echo=FALSE, fig.cap="Circunferencia", fig.align="center"}
+knitr::include_graphics("proporcion.svg")
+```
+
+## Rectángulo áureo
+
+## Pentágono y el número de oro
+
+## Dodecaedro y el número de oro
+
+## Aplicaciones del número de oro
+### Terminologías
+Algunos de estos son:
+##### El número de oro
+$$\phi=1.618$$
+##### La sección áurea
+Es un punto, recta o plano que secciona una cantidad (Todo) de modo las partes que generan gurdan relación con el número de oro.
+
+***"La razon del todo sobre la parte mayor es igual a la razon de la parte mayor sobre la parte menor"***
+
+Genera una ecuacion de segundo grado cuyas raices son $\phi$ y $\frac{1}{\phi}$
+
+##### La proporción áurea
+Es la igualdad de dos razones $$\frac{a}{b}=\frac{c}{d}=\phi=1.618$$
+##### La sucesión áurea
+
+1, $\phi$, $\phi^2$, $\phi^3$. $\ldots$
+
+##### La sucesion de Fibonacci
+
+2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...
+
+
+
+si $a_n$ es n termino geenral de la sucecion de Fibonnacci entonces
+$$ \lim_{n \to \infty} \frac{a_n}{a_{n-1}}=\phi  $$
+
+### Ejemplo aplicativo
+
+<!--
+| ![space-1.jpg](ap1.jpeg) |
+|:--:|
+| *Componiendo sobre la estructura del rectángulo áureo* |
+
+| ![space-1.jpg](ap2.jpeg) |
+|:--:|
+| *Sin la estructura del rectángulo áureo* |
+-->
+
+<!--chapter:end:03.Rmd-->
+
+# Aplicaciones de los fractales en composiciones complejas (abstracto-figurativas)
+
+En este capítulo se estudiará que los __objetos artísticos__ siempre se componen de una __estructura fractal__. Estos aspectos son poco considerados al aplicar los fractales en composiciones complejas. Que se realizan de manera implícita e intuitiva en campos  abstracto-figurativas.
+
+## Secuencias orgánicas bajo transformaciones topológicas
+
+Se sabe que en la construcción de fractales existen dos tipos de transformaciones, _las elementales y las topológicas_. En esta sección trataremos sobre las _transformaciones topológicas_ con el objetivo de _modificar las formas de los términos_ de una secuencia de manera que cada termino que se suceda, mantenga en lo posible las _formas de los términos adyacentes_. En relación con el estudio comparativo de los seres vivos se tiene la siguiente definición, lo cual tiene mucha relación con los objetivos de esta sección y los subsiguientes @homology.
+
+::: {.definition #homologia name="Homología"}
+La **homología** es la _relación_ que existe entre _dos partes orgánicas diferentes_ de _dos organismos distintos_ cuando sus determinantes genéticos tienen el mismo origen evolutivo.
+:::
+
+::: {.definition #homotopia name="Homotopía"}
+En topología, y más precisamente en topología algebraica, dos aplicaciones continuas de un espacio topológico en otro se dicen homótopas (del griego homos = mismo y topos = lugar) si una de ellas puede "deformarse continuamente" en la otra.
+:::
+
+```{r homotopia, echo=FALSE, out.width='50%', fig.pos = "!ht", fig.align="center", fig.cap="Los dos caminos en líneas punteadas que se muestran arriba son homótopos en relación a sus extremos. La animación muestra una posible homotopía entre ellos"}
+knitr::include_graphics('homotopia.png')
+```
+
+Como @homology comenta:
+
+> Existe homología entre órganos dados de dos especies diferentes, cuando ambos derivan del órgano correspondiente de su antepasado común, con independencia de cuán dispares puedan haber llegado a ser. Las cuatro extremidades pares de los vertebrados con mandíbula (gnatóstomos), desde los tiburones hasta las aves o los mamíferos, son homólogas. De la misma manera, el extremo de la pata de un caballo es homólogo al dedo mediano de la mano y el pie humano.
+
+::: {.remark #homologiaremark name="Relación entre la homología y la sucesión bajo transformaciones topológicas"}
+
+Se observa que la *homología* \index{homología} es una *sucesión* de formas que mantiene *similaridad* entre sus términos o elementos, es importante que la diferencia entre un termino y otro esta afectada por una ligera __transformación topológica__\index{transformación topológica}.
+
+<!--
+\@ref(rmk:homologiaremark)
+-->
+:::
+
+En la observación anterior hace referencia de que todo los objetos de tipo secuencial, mantiene la homología.
+
+```{r homologia, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Homología de varios huesos (mostrados en distintos colores) de las extremidades delanteras de cuatro vertebrados"}
+knitr::include_graphics('homologia.png')
+```
+
+
+```{r Suscecion, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Sucesión orgánica bajo transformaciones topológicas"}
+if (knitr::is_html_output()) {
+knitr::include_url("https://sketchfab.com/models/703d3d2905534635b60e0fd649f6d912/embed")
+} else {
+knitr::include_graphics('sucecion.png')
+}
+```
+
+
+
+## Fractales orgánicos bajo transformaciones topológicas (Sketchfab organic)
+
+Se sabe que un fractal es una colección de sucesiones cuyos términos se constituyen de secuencias de formas homólogas. Es decir _una secesión de sucesiones_ por tanto esas formas que componen son copias transformadas topológicamente.
+
+
+```{r Sketch, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Fractales orgánicos bajo transformaciones topológicas - Sketchfab organic"}
+if (knitr::is_html_output()) {
+knitr::include_url("https://sketchfab.com/models/d8b34c3d654d46729aaedca61b367957/embed")
+} else {
+knitr::include_graphics('Sketch.png')
+}
+```
+
+En l Figura \@ref(fig:Sketch) se tiene la forma espiralada se sucede de acuerdo a la transformación topológica  en cada uno de los términos.
+
+
+```{r Sketch2, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Fractales orgánicos bajo transformaciones topológicas - Sketchfab organic"}
+if (knitr::is_html_output()) {
+knitr::include_url("https://sketchfab.com/models/a4bbfae822f04b648f67e908396bc9f2/embed")
+} else {
+knitr::include_graphics('Sketch2.png')
+}
+```
+
+
+
+## La figura humana como un fractal (fractal body modelado)
+
+
+[Body fractal](https://www.behance.net/gallery/11339339/FRACTAL-BODY)
+
+```{r body1, echo=FALSE, out.width='70%', fig.pos = "!ht", fig.align="center", fig.cap="Construccion de la figura humana manifestando fractal"}
+knitr::include_graphics('body1.png')
+```
+
+
+```{r body, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Los ejes de la figura humana se suceden de acuerdo a la secuencia de segmentos de curvas y curvaturas de estas"}
+knitr::include_graphics('body.png')
+```
+```{r body2, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="La estructura de la figura se sucede de acuerdo a una secuencia, además las protuberencias de los músculos son una coleccion de secuencias (fractal)"}
+knitr::include_graphics('body2.png')
+```
+
+
+## Fractal en el canon
+
+
+## Software's generadores de Fractales 2D y 3D
+
+###  POV-Ray (3D)
+
+
+La persistencia de Vision Raytracer es una herramienta de software libre de alta calidad para crear impresionantes gráficos tridimensionales . El código fuente está disponible para aquellos que quieran hacer sus propios puertos.
+
+```{r ray, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Homología de varios huesos (mostrados en distintos colores) de las extremidades delanteras de cuatro vertebrados"}
+knitr::include_graphics('povray.png')
+```
+
+````{verbatim}
+#version 3.6;
+global_settings{ assumed_gamma 1.3 max_trace_level 50}
+#include "colors.inc"
+#include "functions.inc"
+#include "logo.inc"
+
+background { color White }
+camera{ location  <1,-2,-1>  
+        angle 0 // direction 2*z
+        right    x*image_width/image_height
+        // keep propotions with any aspect ratio
+        look_at   <1,-.4,0>
+      }
+light_source {<-140,200, 300>
+   rgb <1.0, 1.0, 0.95>*1.5 }
+light_source {<-140,200, -300>
+   rgb <1.0, 1.0, 0.95>*1.5 shadowless}
+light_source {< 140,200,-300>
+   rgb <0.9, 0.9, 1.00>*1.9 }
+
+julia_fractal{ <-0.023,0.8,-0.83,-0.095>
+   quaternion // quaternion hypercomplex
+   cube             // Types: sqr  cube
+   max_iteration 20
+   precision 200     // 10...500
+
+   texture{
+  //   pigment{ color rgb<0.85,0.1,0.1>}
+    // finish { phong 1}
+     pigment {White*0.8}
+     //finish {phong 0.7 reflection 0.1}
+     //normal {bumps 0.05 scale 1}
+
+   } // end of texture
+   scale<.5,.5,.5>
+   rotate<0,0,0>
+   translate<0.5,0,-0.5>
+} // end of julia_fractal ----------
+
+    julia_fractal{ <-0.023,0.8,-0.83,-0.095>
+   quaternion // quaternion hypercomplex
+   cube             // Types: sqr  cube
+   max_iteration 20
+   precision 200     // 10...500
+
+   texture{
+  //   pigment{ color rgb<0.85,0.1,0.1>}
+    // finish { phong 1}
+     pigment {Red*0.8}
+     //finish {phong 0.7 reflection 0.1}
+     //normal {bumps 0.05 scale 1}
+
+   } // end of texture
+   scale<0.5,.5,.5>
+   rotate<0,20,0>
+   translate<0.9,0,0.5>
+} // end of julia_fractal ----------
+
+    julia_fractal{ <-0.023,0.8,-0.83,-0.095>
+   quaternion // quaternion hypercomplex
+   cube             // Types: sqr  cube
+   max_iteration 20
+   precision 200     // 10...500
+
+   texture{
+  //   pigment{ color rgb<0.85,0.1,0.1>}
+    // finish { phong 1}
+     pigment {Yellow*0.8}
+     //finish {phong 0.7 reflection 0.1}
+     //normal {bumps 0.05 scale 1}
+
+   } // end of texture
+   scale<2,2,2>
+   rotate<0,0,0>
+   translate<0,0,1.5>
+} //
+````
+
+### Mandelbulb-3d
+
+Mandelbulb 3D es una aplicación de software libre creada para imágenes fractales en 3D. Desarrollado por Jesse y un grupo de colaboradores de Fractal Forums , basado en el trabajo Mandelbulb de Daniel White y Paul Nylander, MB3D formula docenas de ecuaciones no lineales en una asombrosa variedad de objetos fractales. El entorno de renderizado 3D incluye iluminación, color, especularidad, profundidad de campo, efectos de sombra y brillo; permitiendo al usuario un control fino sobre los efectos de imagen. [mandelbulb-3d](https://www.mandelbulb.com/2014/mandelbulb-3d-mb3d-fractal-rendering-software/).
+
+```{r body2ww, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="La estructura de la figura se sucede de acuerdo a una secuencia, además las protuberencias de los músculos son una coleccion de secuencias (fractal)"}
+knitr::include_graphics('path1042.png')
+```
+
+
+### Wwwwwwwww
+
+## Paisajes urbanos y rurales como fractales (Mandelbulber)
+
+## Composición fractales mixta
+
+## Exposición de trabajos (\emph{Paisaje fractal 3d digital, animado})
+
+<!--chapter:end:04.Rmd-->
+
+# Fractales
+
+En este capitulo se trata de los *objetos plasticos* de característica ***secuencial y fraccionaria***.
+
+```{definition, fractal, name="Fractales"}
+Son objetos geometricos bidimensionales o tridimensionales cuya estructura esta compuesta por partes que son copias transformadas del objeto total.
+```
+
+Las transformaciones aquí consideradas son aquellas que conservan en lo posible las propiedades originales del objeto, es decir las transformaciones son las elementales (Traslacion, Rotacion, Homotescia, Reflexión) y los morfismos (isomorfismo, homeomorfismo, isometria, etc).
+
+```{example}
+En la naturaleza se peden observe muchos ejemplares tales como las nuves los horatlizas
+```
+
+```{r Doge, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Hola"}
+if (knitr::is_html_output()) {
+knitr::include_url("https://www.youtube.com/embed/TTpbP5BVtiA")
+} else {
+knitr::include_graphics('proporcion.svg')
+}
+```
+
+
+
+```{example}
+En la naturaleza se peden observe muchos ejemplares tales como las nuves los hortalizas, etc.
+```
+
+## Fractales bidimensionales
+**Copo de nieve de Koch**
+
+
+
+
+
+
+
+
+## Fractales tridimensionales
+
+
+### Números complejos
+
+```{definition, julia, name="Conjuntos de Julia"}
+Son conjuntos cuya forma bidimensionales o tridimensionales cuya estructura esta compuesta por partes que son copias transformadas del objeto total.
+```
+
+<!--chapter:end:05.Rmd-->
+
+# Topologia y geometria diferencial de las formas
+
+[@vincze2014college] 
+
+## Ejercicios
+
+
+
+<!--chapter:end:06.Rmd-->
+
+# (APPENDIX) Apendice {-}
+
+# Proporción y canon {#intro}
+
+En todas las áreas del conocimiento humano se suele utilizar las razones y las proporciones ya sea de manera explicita o implícita por ejemplo en los laboratorios químicos, la gastronomía, la agricultura, la construcción, la arquitectura entre otros; en especifico en el arte. En este capitulo las cantidades involucradas serán las longitudes aunque se pueden relacionar incluso con cantidades de colores, cantidades de texturas, cantidad de sombras entre otros aspectos asociados al arte plástico. La importancia de las proporciones, es debido al manejo de cantidades diversas, manteniendo la relación de dos cantidades.
+
+## Razón
+
+::: {.definition #razon name="Razón"}
+Una razón es una fracción de la forma
+
+$$
+\frac{a}{b}(\#eq:fraccion)
+$$
+:::
+
+donde $a$ y $b$ son números reales la fracción ***representa*** la relación que existe entre los números $a$ y $b$ es decir estas cantidades están asociadas.
+
+En la ecuación \@ref(eq:fraccion) el resultado de dividir la fracción recibe el cociente, ademas $a$ y $b$ se denominan numerador y denominador respectivamente. Si $a>b$ la fracción recibe el nombre e *fracción propia* \index{fracción propia} y si $a<b$ la fracción recibe el nombre e *fracción impropia* \index{fracción impropia}
+
+## Proporciones
+
+
+::: {.definition #proporcion name="Proporcion"}
+Una proporción es la igualdad de dos razones.
+
+$$
+\frac{a}{b}=\frac{c}{d}(\#eq:proporcion)
+$$
+:::
+
+
+::: {.remark #rmk1 name="Observación"}
+En una proporción sucede que si $a$ crece o decrece, $b$ crece o decrece multiplicada con la misma cantidad; en este caso recibe el nombre de proporción directa y si $a$ crece o decrece, $b$ decrece y crece en este caso recibe el nombre  proporción inversa. Generalmente en el arte plástico se utiliza las proporciones directas.
+:::
+
+:::{.example #wwwww name="Ejemplo"}
+Las fracciones $\frac{a}{b}$ y $\frac{c}{d}$ no son necesariamente iguales, generalmente esto significa conservar las cantidades $a$ y $b$ de manera proporcional es decir $\frac{a}{b}=\frac{na}{nb}$ donde $n$ es cualquier número real.
+
+:::
+
+
+Las fracciones $\frac{a}{b}$ y $\frac{c}{d}$ no son necesariamente iguales, generalmente esto significa conservar las cantidades $a$ y $b$ de manera proporcional es decir $\frac{a}{b}=\frac{na}{nb}$ donde $n$ es cualquier número real.
+
+Esta igualdad de fracciones (proporción) no ayuda a escalar (agrandar o reducir) cualquier figura 2d o 3d. Es decir si tenemos un modelo (linea poligonal izquierda en la Figura \@ref(fig:ww1)), cuyas dos longitudes son $a$ y $b$, además en la copia a realizar, (linea poligonal de la derecha en la Figura \@ref(fig:ww1)), establecemos la longitud $c$ como la copia trasformada de la longitud $a$ (un numero mayor a $a$ si deseamos aumentar el tamaño con respecto al original y de manera inversa si deseamos reducir el tamaño); la longitud $x$ es la incógnita que debe hallarse para mantener el tamaño de menera proporcional.
+
+Si deseamos averiguar la longitud de $x$ de manera proporcional asociado al valor $c$ dado por conveniencia, primero se genera la razón $\frac{a}{b}$ asociado al modelo y la razón $\frac{c}{x}$ en la copia, en ese orden es decir $c$ y $a$ en el numerador pues $c$ es la trasformación de $a$ que se estableció
+
+theorem	Theorem	thm
+lemma	Lemma	lem
+corollary	Corollary	cor
+proposition	Proposition	prp
+conjecture	Conjecture	cnj
+definition	Definition	def
+example	Example	exm
+exercise	Exercise	exr
+hypothesis	Hypothesis	hyp
+$$
+\frac{a}{b}=\frac{c}{x}\Longleftrightarrow ax=bc \Longleftrightarrow x=\frac{bc}{a}
+$$
+
+Sea $a=3$, $b=2$ y $c=5$ en la figura \@ref(fig:ww1) entonces$$
+\frac{3}{2}=\frac{5}{x}\Longleftrightarrow 3x=2\cdot5 \Longleftrightarrow x=\frac{10}{3}=3.333
+$$
+
+```{r ww1, echo=FALSE, fig.align="center", fig.cap="Proporción"}
+knitr::include_graphics('proporcion.svg')
+```
+
+Este proceso se puede iterar en una forma poligonal cuyo número de lados es mayor a dos, por ejemplo en la Figura \@ref(fig:ww), se tiene tres procesos adicionales estableciendo como punto partida al segmento $GF$ luego se traza dos semirectas cuyo extremos coinciden con los extremos del segmento $GF$, ademas es necesario conservar los ángulos de estos con respecto al segmento $GF$ es decir $\angle CBA=\angle FGK$ y $\angle DCB=\angle IFG$. Entonces construimos los segmentos de longitud $GK=GF\frac{AB}{BC}$ $FI=GF\frac{CD}{BC}$ deducidas a partir de las proporciones
+
+$$
+\frac{GK}{GF}=\frac{AB}{BC}\: \text{ y }\: \frac{FI}{GF}=\frac{CD}{BC}
+$$los extremos $K$ e $I$ deben estar sobre las semirectas correspondientes, finalmente se proporciona el segmento $KH$ con el mismo procedimiento es decir ángulo $\angle BAE=\angle GKH$ y longitud $KH=KG\frac{EA}{BC}$
+
+```{r ww, echo=FALSE, out.width='100%', out.height='100%', fig.align="center", fig.cap="Proporción de un polígono"}
+if (knitr::is_html_output()) {
+knitr::include_url("https://www.geogebra.org/classic/wdkjjtjp", height="700")} else {
+knitr::include_graphics('proporcion.svg')
+}
+```
+
+Todo figura de la realidad se pueden inscribrir en un polígono por tanto puede se predispone a la proporción. Por ejemplo considere la Figura \@ref(fig:ww) dada.
+
+## Canon
+
+Debido a la poligonalización de las figuras en general es posible establecer un modelo cuyas subdivisión conlleve a un modelo aplicable en futuras representaciones.
+
+::: {.definition $canon name="Canon"}
+Las proporciones perfectas o ideales del cuerpo humano y alude a las relaciones armónicas entre las distintas partes de una figura.
+:::
+
+```{r canonfig, echo=FALSE, out.width='100%', out.height='100%', fig.align="center", fig.cap="Proporción de un polígono"}
+knitr::include_graphics('canon.jpg')
+```
+
+
+# Perspectiva cónica
+[@xie2015]
+
+## Raices de una ecuacion de segundo grado
+## Propiedades de una ecuacion de segundo grado
+
+# Ecacuaciones lineales de primer grado
+
+## Soluciones de ecuacuiones lineales de primer grado
+## Soluciones ...
+## Forma matricial de una ecuación lineal
+
+<!--chapter:end:07.Rmd-->
+
+`r if (knitr::is_html_output()) '
+# Referencias {-}
+'`
+
+<!--chapter:end:08.Rmd-->
+

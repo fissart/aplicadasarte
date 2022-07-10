@@ -1,539 +1,0 @@
-Script started on 2022-07-09 16:01:55-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
-r7@r7-X556UQK:~/Documentos/aplicadasarte$ exit.exit/exit
-bash: ./exit: No existe el archivo o el directorio
-r7@r7-X556UQK:~/Documentos/aplicadasarte$ ./exit[C[K[K[K[Kscript
-wwwwwwwwwwwwwwwwwwwwww
-r7@r7-X556UQK:~/Documentos/aplicadasarte$ cmp
-cmp: falta un operando después de 'cmp'
-cmp: Pruebe 'cmp --help' para más información.
-r7@r7-X556UQK:~/Documentos/aplicadasarte$ cmp.cmp/cmp
-bash: ./cmp: No existe el archivo o el directorio
-r7@r7-X556UQK:~/Documentos/aplicadasarte$ ./cmp.sh
-
-
-processing file: z_1.Rmd
-  |                                                                              |                                                                      |   0%  |                                                                              |..                                                                    |   3%
-   inline R code fragments
-
-  |                                                                              |....                                                                  |   6%
-label: complex (with options) 
-List of 5
- $ echo      : logi FALSE
- $ out.width : chr "100%"
- $ out.height: chr "100%"
- $ fig.align : chr "center"
- $ fig.cap   : chr "Esquema de los números complejos"
-
-  |                                                                              |......                                                                |   9%
-  ordinary text without R code
-
-  |                                                                              |........                                                              |  11%
-label: aureo (with options) 
-List of 2
- $ name  : chr "Numero áureo"
- $ engine: chr "definition"
-
-  |                                                                              |..........                                                            |  14%
-  ordinary text without R code
-
-  |                                                                              |............                                                          |  17%
-label: unnamed-chunk-1 (with options) 
-List of 1
- $ engine: chr "remark"
-
-  |                                                                              |..............                                                        |  20%
-  ordinary text without R code
-
-  |                                                                              |................                                                      |  23%
-label: C2 (with options) 
-List of 3
- $ echo     : logi FALSE
- $ fig.cap  : chr "Circunferencia"
- $ fig.align: chr "center"
-
-  |                                                                              |..................                                                    |  26%
-  ordinary text without R code
-
-  |                                                                              |....................                                                  |  29%
-label: homotopia (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "50%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Los dos caminos en líneas punteadas que se muestran arriba son homótopos en relación a sus extremos. La animaci"| __truncated__
-
-  |                                                                              |......................                                                |  31%
-  ordinary text without R code
-
-  |                                                                              |........................                                              |  34%
-label: homologia (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "100%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Homología de varios huesos (mostrados en distintos colores) de las extremidades delanteras de cuatro vertebrados"
-
-  |                                                                              |..........................                                            |  37%
-  ordinary text without R code
-
-  |                                                                              |............................                                          |  40%
-label: Suscecion (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "100%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Sucesión orgánica bajo transformaciones topológicas"
-
-  |                                                                              |..............................                                        |  43%
-  ordinary text without R code
-
-  |                                                                              |................................                                      |  46%
-label: Sketch (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "100%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Fractales orgánicos bajo transformaciones topológicas - Sketchfab organic"
-
-  |                                                                              |..................................                                    |  49%
-  ordinary text without R code
-
-  |                                                                              |....................................                                  |  51%
-label: Sketch2 (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "100%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Fractales orgánicos bajo transformaciones topológicas - Sketchfab organic"
-
-  |                                                                              |......................................                                |  54%
-  ordinary text without R code
-
-  |                                                                              |........................................                              |  57%
-label: fractal (with options) 
-List of 2
- $ name  : chr "Fractales"
- $ engine: chr "definition"
-
-  |                                                                              |..........................................                            |  60%
-  ordinary text without R code
-
-  |                                                                              |............................................                          |  63%
-label: unnamed-chunk-2 (with options) 
-List of 1
- $ engine: chr "example"
-
-  |                                                                              |..............................................                        |  66%
-  ordinary text without R code
-
-  |                                                                              |................................................                      |  69%
-label: Doge (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "100%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Hola"
-
-  |                                                                              |..................................................                    |  71%
-  ordinary text without R code
-
-  |                                                                              |....................................................                  |  74%
-label: unnamed-chunk-3 (with options) 
-List of 1
- $ engine: chr "example"
-
-  |                                                                              |......................................................                |  77%
-  ordinary text without R code
-
-  |                                                                              |........................................................              |  80%
-label: julia (with options) 
-List of 2
- $ name  : chr "Conjuntos de Julia"
- $ engine: chr "definition"
-
-  |                                                                              |..........................................................            |  83%
-  ordinary text without R code
-
-  |                                                                              |............................................................          |  86%
-label: ww1 (with options) 
-List of 3
- $ echo     : logi FALSE
- $ fig.align: chr "center"
- $ fig.cap  : chr "Proporción"
-
-  |                                                                              |..............................................................        |  89%
-  ordinary text without R code
-
-  |                                                                              |................................................................      |  91%
-label: ww (with options) 
-List of 5
- $ echo      : logi FALSE
- $ out.width : chr "100%"
- $ out.height: chr "100%"
- $ fig.align : chr "center"
- $ fig.cap   : chr "Proporción de un polígono"
-
-  |                                                                              |..................................................................    |  94%
-  ordinary text without R code
-
-  |                                                                              |....................................................................  |  97%
-label: canonfig (with options) 
-List of 5
- $ echo      : logi FALSE
- $ out.width : chr "100%"
- $ out.height: chr "100%"
- $ fig.align : chr "center"
- $ fig.cap   : chr "Proporción de un polígono"
-
-  |                                                                              |......................................................................| 100%
-   inline R code fragments
-
-
-output file: z_1.knit.md
-
-/usr/bin/pandoc +RTS -K512m -RTS z_1.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output z_1.html --lua-filter /home/r7/R/x86_64-pc-linux-gnu-library/3.6/bookdown/rmarkdown/lua/custom-environment.lua --lua-filter /home/r7/R/x86_64-pc-linux-gnu-library/3.6/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/r7/R/x86_64-pc-linux-gnu-library/3.6/rmarkdown/rmarkdown/lua/latex-div.lua --metadata-file /tmp/RtmpWX9THH/file1042f54b7edc --wrap preserve --standalone --section-divs --table-of-contents --toc-depth 3 --template /home/r7/R/x86_64-pc-linux-gnu-library/3.6/bookdown/templates/gitbook.html --highlight-style pygments --number-sections --css style.css --include-in-header /tmp/RtmpWX9THH/rmarkdown-str1042f1ca8af3.html --mathjax --include-in-header icon.html --filter /usr/bin/pandoc-citeproc 
-
-Output created: docs/index.html
-Warning messages:
-1: The label(s) eq:new not found 
-2: The label(s) eq:new not found 
-
-
-processing file: z_1.Rmd
-  |                                                                              |                                                                      |   0%  |                                                                              |..                                                                    |   3%
-   inline R code fragments
-
-  |                                                                              |....                                                                  |   6%
-label: complex (with options) 
-List of 5
- $ echo      : logi FALSE
- $ out.width : chr "100%"
- $ out.height: chr "100%"
- $ fig.align : chr "center"
- $ fig.cap   : chr "Esquema de los números complejos"
-
-  |                                                                              |......                                                                |   9%
-  ordinary text without R code
-
-  |                                                                              |........                                                              |  11%
-label: aureo (with options) 
-List of 2
- $ name  : chr "Numero áureo"
- $ engine: chr "definition"
-
-  |                                                                              |..........                                                            |  14%
-  ordinary text without R code
-
-  |                                                                              |............                                                          |  17%
-label: unnamed-chunk-1 (with options) 
-List of 1
- $ engine: chr "remark"
-
-  |                                                                              |..............                                                        |  20%
-  ordinary text without R code
-
-  |                                                                              |................                                                      |  23%
-label: C2 (with options) 
-List of 3
- $ echo     : logi FALSE
- $ fig.cap  : chr "Circunferencia"
- $ fig.align: chr "center"
-
-  |                                                                              |..................                                                    |  26%
-  ordinary text without R code
-
-  |                                                                              |....................                                                  |  29%
-label: homotopia (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "50%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Los dos caminos en líneas punteadas que se muestran arriba son homótopos en relación a sus extremos. La animaci"| __truncated__
-
-  |                                                                              |......................                                                |  31%
-  ordinary text without R code
-
-  |                                                                              |........................                                              |  34%
-label: homologia (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "100%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Homología de varios huesos (mostrados en distintos colores) de las extremidades delanteras de cuatro vertebrados"
-
-  |                                                                              |..........................                                            |  37%
-  ordinary text without R code
-
-  |                                                                              |............................                                          |  40%
-label: Suscecion (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "100%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Sucesión orgánica bajo transformaciones topológicas"
-
-  |                                                                              |..............................                                        |  43%
-  ordinary text without R code
-
-  |                                                                              |................................                                      |  46%
-label: Sketch (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "100%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Fractales orgánicos bajo transformaciones topológicas - Sketchfab organic"
-
-  |                                                                              |..................................                                    |  49%
-  ordinary text without R code
-
-  |                                                                              |....................................                                  |  51%
-label: Sketch2 (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "100%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Fractales orgánicos bajo transformaciones topológicas - Sketchfab organic"
-
-  |                                                                              |......................................                                |  54%
-  ordinary text without R code
-
-  |                                                                              |........................................                              |  57%
-label: fractal (with options) 
-List of 2
- $ name  : chr "Fractales"
- $ engine: chr "definition"
-
-  |                                                                              |..........................................                            |  60%
-  ordinary text without R code
-
-  |                                                                              |............................................                          |  63%
-label: unnamed-chunk-2 (with options) 
-List of 1
- $ engine: chr "example"
-
-  |                                                                              |..............................................                        |  66%
-  ordinary text without R code
-
-  |                                                                              |................................................                      |  69%
-label: Doge (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "100%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Hola"
-
-  |                                                                              |..................................................                    |  71%
-  ordinary text without R code
-
-  |                                                                              |....................................................                  |  74%
-label: unnamed-chunk-3 (with options) 
-List of 1
- $ engine: chr "example"
-
-  |                                                                              |......................................................                |  77%
-  ordinary text without R code
-
-  |                                                                              |........................................................              |  80%
-label: julia (with options) 
-List of 2
- $ name  : chr "Conjuntos de Julia"
- $ engine: chr "definition"
-
-  |                                                                              |..........................................................            |  83%
-  ordinary text without R code
-
-  |                                                                              |............................................................          |  86%
-label: ww1 (with options) 
-List of 3
- $ echo     : logi FALSE
- $ fig.align: chr "center"
- $ fig.cap  : chr "Proporción"
-
-  |                                                                              |..............................................................        |  89%
-  ordinary text without R code
-
-  |                                                                              |................................................................      |  91%
-label: ww (with options) 
-List of 5
- $ echo      : logi FALSE
- $ out.width : chr "100%"
- $ out.height: chr "100%"
- $ fig.align : chr "center"
- $ fig.cap   : chr "Proporción de un polígono"
-
-  |                                                                              |..................................................................    |  94%
-  ordinary text without R code
-
-  |                                                                              |....................................................................  |  97%
-label: canonfig (with options) 
-List of 5
- $ echo      : logi FALSE
- $ out.width : chr "100%"
- $ out.height: chr "100%"
- $ fig.align : chr "center"
- $ fig.cap   : chr "Proporción de un polígono"
-
-  |                                                                              |......................................................................| 100%
-   inline R code fragments
-
-
-output file: z_1.knit.md
-
-/usr/bin/pandoc +RTS -K512m -RTS z_1.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output z_1.tex --lua-filter /home/r7/R/x86_64-pc-linux-gnu-library/3.6/bookdown/rmarkdown/lua/custom-environment.lua --lua-filter /home/r7/R/x86_64-pc-linux-gnu-library/3.6/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/r7/R/x86_64-pc-linux-gnu-library/3.6/rmarkdown/rmarkdown/lua/latex-div.lua --metadata-file /tmp/Rtmpoylj4c/file1045048b4a692 --self-contained --table-of-contents --toc-depth 3 --number-sections --highlight-style tango --pdf-engine pdflatex --natbib --include-in-header preamble.tex --include-before-body before_body.tex --include-after-body after_body.tex --wrap preserve --top-level-division=chapter --variable tables=yes --standalone 
-Warning: LaTeX Warning: Reference `(' on page 7 undefined on input line 354.
-Warning: LaTeX Warning: Text page 13 contains only floats.
-Warning: LaTeX Warning: There were undefined references.
-
-Output created: docs/z_1.pdf
-Warning messages:
-1: In xfun::read_utf8(log) :
-  The file z_1.log is not encoded in UTF-8. These lines contain invalid UTF-8 characters: 764, 1232, 1245, 1470
-2: In xfun::read_utf8(log) :
-  The file z_1.log is not encoded in UTF-8. These lines contain invalid UTF-8 characters: 764, 1195, 1200, 1417
-3: In grep("^(LaTeX|Package [[:alnum:]]+) Warning:", x) :
-  string de entrada 764 es inválida en este locale
-4: In grep("^(LaTeX|Package [[:alnum:]]+) Warning:", x) :
-  string de entrada 1195 es inválida en este locale
-5: In grep("^(LaTeX|Package [[:alnum:]]+) Warning:", x) :
-  string de entrada 1200 es inválida en este locale
-6: In grep("^(LaTeX|Package [[:alnum:]]+) Warning:", x) :
-  string de entrada 1417 es inválida en este locale
-7: In grep("^\\s*$", x) : string de entrada 764 es inválida en este locale
-8: In grep("^\\s*$", x) :
-  string de entrada 1195 es inválida en este locale
-9: In grep("^\\s*$", x) :
-  string de entrada 1200 es inválida en este locale
-10: In grep("^\\s*$", x) :
-  string de entrada 1417 es inválida en este locale
-
-
-processing file: z_1.Rmd
-  |                                                                              |                                                                      |   0%  |                                                                              |..                                                                    |   3%
-   inline R code fragments
-
-  |                                                                              |....                                                                  |   6%
-label: complex (with options) 
-List of 5
- $ echo      : logi FALSE
- $ out.width : chr "100%"
- $ out.height: chr "100%"
- $ fig.align : chr "center"
- $ fig.cap   : chr "Esquema de los números complejos"
-
-  |                                                                              |......                                                                |   9%
-  ordinary text without R code
-
-  |                                                                              |........                                                              |  11%
-label: aureo (with options) 
-List of 2
- $ name  : chr "Numero áureo"
- $ engine: chr "definition"
-
-  |                                                                              |..........                                                            |  14%
-  ordinary text without R code
-
-  |                                                                              |............                                                          |  17%
-label: unnamed-chunk-1 (with options) 
-List of 1
- $ engine: chr "remark"
-
-  |                                                                              |..............                                                        |  20%
-  ordinary text without R code
-
-  |                                                                              |................                                                      |  23%
-label: C2 (with options) 
-List of 3
- $ echo     : logi FALSE
- $ fig.cap  : chr "Circunferencia"
- $ fig.align: chr "center"
-
-  |                                                                              |..................                                                    |  26%
-  ordinary text without R code
-
-  |                                                                              |....................                                                  |  29%
-label: homotopia (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "50%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Los dos caminos en líneas punteadas que se muestran arriba son homótopos en relación a sus extremos. La animaci"| __truncated__
-
-  |                                                                              |......................                                                |  31%
-  ordinary text without R code
-
-  |                                                                              |........................                                              |  34%
-label: homologia (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "100%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Homología de varios huesos (mostrados en distintos colores) de las extremidades delanteras de cuatro vertebrados"
-
-  |                                                                              |..........................                                            |  37%
-  ordinary text without R code
-
-  |                                                                              |............................                                          |  40%
-label: Suscecion (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "100%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Sucesión orgánica bajo transformaciones topológicas"
-
-  |                                                                              |..............................                                        |  43%
-  ordinary text without R code
-
-  |                                                                              |................................                                      |  46%
-label: Sketch (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "100%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Fractales orgánicos bajo transformaciones topológicas - Sketchfab organic"
-
-  |                                                                              |..................................                                    |  49%
-  ordinary text without R code
-
-  |                                                                              |....................................                                  |  51%
-label: Sketch2 (with options) 
-List of 5
- $ echo     : logi FALSE
- $ out.width: chr "100%"
- $ fig.pos  : chr "!ht"
- $ fig.align: chr "center"
- $ fig.cap  : chr "Fractales orgánicos bajo transformaciones topológicas - Sketchfab organic"
-
-  |                                                                              |......................................                                |  54%
-  ordinary text without R code
-
-  |                                                                              |........................................                              |  57%
-label: fractal (with options) 
-List of 2
- $ name  : chr "Fractales"
- $ engine: chr "definition"
-
-  |                                                                              |..........................................                            |  60%
-  ordinary text without R code
-
-  |                                                                              |............................................                          |  63%
-label: unnamed-chunk-2 (with options) 
-List of 1
- $ engine: chr "example"
-
-  |                         
