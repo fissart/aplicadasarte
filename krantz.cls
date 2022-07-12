@@ -1030,7 +1030,7 @@
 \newif\if@break
 \newif\if@firstauthor
 
-\newcommand\tableofcontents{\cleardoublepage\markboth{Contents}{Contents}%
+\newcommand\tableofcontents{\cleardoublepage\markboth{Índice general}{Índice general}%
   \make@cornermarks
     \gdef\chapterauthor{\@caplusone}%
   \gdef\endchapterauthors{\end@casplusone}%

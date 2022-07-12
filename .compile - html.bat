@@ -1,2 +1,2 @@
 @echo off
-Rscript -e "rmarkdown::render_site('04.Rmd', encoding='UTF-8')"
+Rscript -e "rmarkdown::render_site('02.Rmd', encoding='UTF-8')"

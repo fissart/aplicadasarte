@@ -1,14 +1,26 @@
 # Número  áureo como un fractal
 
 
-El numero $\phi=1.618$ recibe el nombre de numero áureo, numero mágico.
-$\int_1$
+La geometría tiene dos grandes tratados: uno es el teorema de Pitágoras; el otro, la división de una linea en extrema y media razón. El primero, podemos compararla a una medida de oro; el segundo podemos nombrarla como una preciosa joya @Ghy77
+y @ghyka1977geometry.
+
+Deduzcamos y averiguemos de donde nace el número de oro, empecemos con la frase celebre que dice mucho, lo genera y está relacionado biunívocamente con éste número: “El todo sobre la parte mayor y la parte mayor sobre la menor”. Sea el segmento $AB$ Dividamos éste de la siguiente manera,
+tomemos a $AB/2$ coloquemos éste segmento de manera que sea perpendicular
+a $AB$ en cualquiera de sus extremos en este caso sea $B$ interceptemos la linea
+$AC$ con el arco $BD$ centrado en $C$ generando el punto $D$ a partir de este punto
+tracemos el arco $DE$ centrado en $A$ hallando de este modo el punto E que es
+el punto que divide al segmento $AB$ en extrema y media razón o sección áurea
+es decir podemos empezar diciendo que $\frac{AB}{AE}=\frac{AE}{EB}=\frac{\sqrt{5}+1}{2}= 1,61833\ldots = \phi$
+
+```{r aureo1, echo=FALSE, out.width='50%', fig.pos = "!ht", fig.align="center", fig.cap="Ubicación de la sección aurea"}
+knitr::include_graphics('book1.png')
+```
+### Propiedades del número
 
 
 
 ## Número áureo, proporción áurea, sección áurea (Aplicaciones)
 
-^^
 
 ## Rectángulo áureo (Rectángulos áureos) y composición
 

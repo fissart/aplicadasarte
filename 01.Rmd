@@ -1,7 +1,6 @@
 \mainmatter
 
 # Elementos básicos de un fractal geométrico
-wwwwwwwwww
 
 ## Conjuntos (Reconocer conjuntos como una \emph{forma} - conexidad - Mobius y Klein)
 <!--

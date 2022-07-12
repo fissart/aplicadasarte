@@ -1,4 +1,4 @@
-# Aplicaciones de los fractales en composiciones complejas (abstracto-figurativas)
+# Aplicaciones de los fractales en composiciones complejas
 
 En este capítulo se estudiará que los __objetos artísticos__ siempre se componen de una __estructura fractal__. Estos aspectos son poco considerados al aplicar los fractales en composiciones complejas. Que se realizan de manera implícita e intuitiva en campos  abstracto-figurativas.
 
