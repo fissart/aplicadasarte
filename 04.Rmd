@@ -76,6 +76,8 @@ knitr::include_graphics('Sketch2.png')
 
 ## La figura humana como un fractal (fractal body modelado)
 
+La figura humana se estructura en base a una suceción de estructuras fractales desde los niveleres moleculares, celulares, orgánicos, sistemáticos y corporales. Pues debido a ese orden se sucede la existencia humana. En este caso el arte se encarga de estudiar esos patrones a nivel corporal o físico de la figura humana. De acuerdo a las figura \@ref(fig:body) y los subsiguientes se pone de manifiesto estructuras fractales, es decir secuencia de secuencias.
+
 
 [Body fractal](https://www.behance.net/gallery/11339339/FRACTAL-BODY)
 
