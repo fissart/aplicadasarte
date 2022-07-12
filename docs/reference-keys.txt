@@ -12,7 +12,6 @@ fig:body1
 fig:body
 fig:body2
 fig:ray
-fig:body2ww
 def:fractal
 exm:unnamed-chunk-3
 fig:Doge

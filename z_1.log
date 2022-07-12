@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  10 JUL 2022 15:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  11 JUL 2022 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1318,7 +1318,7 @@ Overfull \hbox (336.25pt too wide) detected at line 293
  []
 
 Cap\'{\i }tulo 2.
-<book1.png, id=310, 328.22626pt x 227.34938pt>
+<book1.png, id=306, 328.22626pt x 227.34938pt>
 File: book1.png Graphic file (type png)
 <use book1.png>
 Package pdftex.def Info: book1.png  used on input line 308.
@@ -1374,7 +1374,7 @@ Overfull \hbox (336.25pt too wide) detected at line 346
  []
 
 Cap\'{\i }tulo 3.
-<complex.png, id=336, 664.4825pt x 341.275pt>
+<complex.png, id=332, 664.4825pt x 341.275pt>
 File: complex.png Graphic file (type png)
 <use complex.png>
 Package pdftex.def Info: complex.png  used on input line 356.
@@ -1409,7 +1409,7 @@ LaTeX Info: Redefining \% on input line 415.
 
 LaTeX Warning: Reference `(' on page 8 undefined on input line 415.
 
-<proporcion.pdf, id=364, 172.16454pt x 127.96129pt>
+<proporcion.pdf, id=360, 172.16454pt x 127.96129pt>
 File: proporcion.pdf Graphic file (type pdf)
 <use proporcion.pdf>
 Package pdftex.def Info: proporcion.pdf  used on input line 420.
@@ -1495,7 +1495,7 @@ Overfull \hbox (336.25pt too wide) detected at line 472
  []
 
 Cap\'{\i }tulo 4.
-<homotopia.png, id=393, 1204.5pt x 837.1275pt>
+<homotopia.png, id=389, 1204.5pt x 837.1275pt>
 File: homotopia.png Graphic file (type png)
 <use homotopia.png>
 Package pdftex.def Info: homotopia.png  used on input line 491.
@@ -1508,12 +1508,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [11
 
 ]
-<homologia.png, id=408, 803.0pt x 572.1375pt>
+<homologia.png, id=404, 803.0pt x 572.1375pt>
 File: homologia.png Graphic file (type png)
 <use homologia.png>
 Package pdftex.def Info: homologia.png  used on input line 514.
 (pdftex.def)             Requested size: 336.5pt x 239.76357pt.
-<sucecion.png, id=409, 1371.1225pt x 770.88pt>
+<sucecion.png, id=405, 1371.1225pt x 770.88pt>
 File: sucecion.png Graphic file (type png)
 <use sucecion.png>
 Package pdftex.def Info: sucecion.png  used on input line 523.
@@ -1524,12 +1524,12 @@ Underfull \hbox (badness 3525) in paragraph at lines 531--531
 ló-gi-cas
  []
 
-<Sketch.png, id=410, 1371.1225pt x 770.88pt>
+<Sketch.png, id=406, 1371.1225pt x 770.88pt>
 File: Sketch.png Graphic file (type png)
 <use Sketch.png>
 Package pdftex.def Info: Sketch.png  used on input line 537.
 (pdftex.def)             Requested size: 336.5pt x 189.19072pt.
-<Sketch2.png, id=412, 1371.1225pt x 770.88pt>
+<Sketch2.png, id=408, 1371.1225pt x 770.88pt>
 File: Sketch2.png Graphic file (type png)
 <use Sketch2.png>
 Package pdftex.def Info: Sketch2.png  used on input line 548.
@@ -1546,7 +1546,7 @@ LaTeX Warning: Text page 13 contains only floats.
 LaTeX Info: Redefining \. on input line 553.
 LaTeX Info: Redefining \% on input line 553.
 [13 <./homologia.png> <./sucecion.png>]
-<body1.png, id=426, 1405.25pt x 1405.25pt>
+<body1.png, id=422, 1405.25pt x 1405.25pt>
 File: body1.png Graphic file (type png)
 <use body1.png>
 Package pdftex.def Info: body1.png  used on input line 562.
@@ -1557,17 +1557,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 567.
 LaTeX Info: Redefining \% on input line 567.
 [14 <./Sketch.png> <./Sketch2.png>]
-<body.png, id=434, 934.24031pt x 438.8897pt>
+<body.png, id=430, 934.24031pt x 438.8897pt>
 File: body.png Graphic file (type png)
 <use body.png>
 Package pdftex.def Info: body.png  used on input line 571.
 (pdftex.def)             Requested size: 336.5pt x 158.08054pt.
-<body2.png, id=435, 629.35126pt x 433.62pt>
+<body2.png, id=431, 629.35126pt x 433.62pt>
 File: body2.png Graphic file (type png)
 <use body2.png>
 Package pdftex.def Info: body2.png  used on input line 579.
 (pdftex.def)             Requested size: 336.5pt x 231.84877pt.
-<povray.png, id=436, 1606.0pt x 1204.5pt>
+<povray.png, id=432, 1606.0pt x 1204.5pt>
 File: povray.png Graphic file (type png)
 <use povray.png>
 Package pdftex.def Info: povray.png  used on input line 599.
@@ -1605,104 +1605,53 @@ Underfull \vbox (badness 10000) detected at line 685
 LaTeX Info: Redefining \. on input line 685.
 LaTeX Info: Redefining \% on input line 685.
 [18]
-<path1042.png, id=462, 254.33481pt x 405.12894pt>
-File: path1042.png Graphic file (type png)
-<use path1042.png>
-Package pdftex.def Info: path1042.png  used on input line 694.
-(pdftex.def)             Requested size: 336.5pt x 536.05147pt.
-
-LaTeX Warning: Float too large for page by 45.82039pt on input line 699.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 714.
-LaTeX Info: Redefining \% on input line 714.
+LaTeX Info: Redefining \. on input line 705.
+LaTeX Info: Redefining \% on input line 705.
 [19]
-LaTeX Info: Redefining \. on input line 714.
-LaTeX Info: Redefining \% on input line 714.
+LaTeX Info: Redefining \. on input line 705.
+LaTeX Info: Redefining \% on input line 705.
 [20]
-LaTeX Info: Redefining \. on input line 714.
-LaTeX Info: Redefining \% on input line 714.
-[21 <./path1042.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 10000) detected at line 705
+ []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (336.25pt too wide) detected at line 705
 []
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 10000) detected at line 705
+ []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (336.25pt too wide) detected at line 705
 []
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 10000) detected at line 705
+ []
 
 
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
+Overfull \hbox (336.25pt too wide) detected at line 705
 []
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
+Underfull \vbox (badness 10000) detected at line 705
  []
 
 
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[22
-
-]
-Underfull \vbox (badness 10000) detected at line 714
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 714
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 714
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 714
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 714
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 714
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 714
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 714
+Overfull \hbox (336.25pt too wide) detected at line 705
 []
  []
 
 Cap\'{\i }tulo 5.
 File: proporcion.pdf Graphic file (type pdf)
 <use proporcion.pdf>
-Package pdftex.def Info: proporcion.pdf  used on input line 730.
+Package pdftex.def Info: proporcion.pdf  used on input line 721.
 (pdftex.def)             Requested size: 336.5pt x 250.11316pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1712,44 +1661,45 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[23
+[21
+
 
 ]
-LaTeX Info: Redefining \. on input line 757.
-LaTeX Info: Redefining \% on input line 757.
-[24]
-Underfull \vbox (badness 10000) detected at line 757
+LaTeX Info: Redefining \. on input line 748.
+LaTeX Info: Redefining \% on input line 748.
+[22]
+Underfull \vbox (badness 10000) detected at line 748
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 757
+Overfull \hbox (336.25pt too wide) detected at line 748
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 757
+Underfull \vbox (badness 10000) detected at line 748
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 757
+Overfull \hbox (336.25pt too wide) detected at line 748
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 757
+Underfull \vbox (badness 10000) detected at line 748
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 757
+Overfull \hbox (336.25pt too wide) detected at line 748
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 757
+Underfull \vbox (badness 10000) detected at line 748
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 757
+Overfull \hbox (336.25pt too wide) detected at line 748
 []
  []
 
@@ -1759,7 +1709,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[25
+[23
 
 
 ]
@@ -1799,41 +1749,41 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[26
+[24
 
 ]
-Underfull \vbox (badness 10000) detected at line 769
+Underfull \vbox (badness 10000) detected at line 760
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 769
+Overfull \hbox (336.25pt too wide) detected at line 760
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 769
+Underfull \vbox (badness 10000) detected at line 760
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 769
+Overfull \hbox (336.25pt too wide) detected at line 760
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 769
+Underfull \vbox (badness 10000) detected at line 760
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 769
+Overfull \hbox (336.25pt too wide) detected at line 760
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 769
+Underfull \vbox (badness 10000) detected at line 760
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 769
+Overfull \hbox (336.25pt too wide) detected at line 760
 []
  []
 
@@ -1846,78 +1796,78 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[27
+[25
 
 ]
-LaTeX Info: Redefining \. on input line 828.
-LaTeX Info: Redefining \% on input line 828.
-[28]
+LaTeX Info: Redefining \. on input line 819.
+LaTeX Info: Redefining \% on input line 819.
+[26]
 File: proporcion.pdf Graphic file (type pdf)
 <use proporcion.pdf>
-Package pdftex.def Info: proporcion.pdf  used on input line 832.
+Package pdftex.def Info: proporcion.pdf  used on input line 823.
 (pdftex.def)             Requested size: 172.1641pt x 127.96097pt.
 File: proporcion.pdf Graphic file (type pdf)
 <use proporcion.pdf>
-Package pdftex.def Info: proporcion.pdf  used on input line 847.
+Package pdftex.def Info: proporcion.pdf  used on input line 838.
 (pdftex.def)             Requested size: 336.5128pt x 543.098pt.
 
-LaTeX Warning: Float too large for page by 26.07942pt on input line 852.
+LaTeX Warning: Float too large for page by 26.07942pt on input line 843.
 
 
 Underfull \vbox (badness 5970) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 861.
-LaTeX Info: Redefining \% on input line 861.
-[29]
-LaTeX Info: Redefining \. on input line 861.
-LaTeX Info: Redefining \% on input line 861.
-[30]
-<canon.jpg, id=555, 623.32875pt x 682.55pt>
+LaTeX Info: Redefining \. on input line 852.
+LaTeX Info: Redefining \% on input line 852.
+[27]
+LaTeX Info: Redefining \. on input line 852.
+LaTeX Info: Redefining \% on input line 852.
+[28]
+<canon.jpg, id=540, 623.32875pt x 682.55pt>
 File: canon.jpg Graphic file (type jpg)
 <use canon.jpg>
-Package pdftex.def Info: canon.jpg  used on input line 867.
+Package pdftex.def Info: canon.jpg  used on input line 858.
 (pdftex.def)             Requested size: 336.50691pt x 543.03085pt.
 
-LaTeX Warning: Float too large for page by 26.01227pt on input line 872.
+LaTeX Warning: Float too large for page by 26.01227pt on input line 863.
 
-LaTeX Info: Redefining \. on input line 875.
-LaTeX Info: Redefining \% on input line 875.
-[31]
-LaTeX Info: Redefining \. on input line 875.
-LaTeX Info: Redefining \% on input line 875.
-[32 <./canon.jpg>]
-Underfull \vbox (badness 10000) detected at line 875
+LaTeX Info: Redefining \. on input line 866.
+LaTeX Info: Redefining \% on input line 866.
+[29]
+LaTeX Info: Redefining \. on input line 866.
+LaTeX Info: Redefining \% on input line 866.
+[30 <./canon.jpg>]
+Underfull \vbox (badness 10000) detected at line 866
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 875
+Overfull \hbox (336.25pt too wide) detected at line 866
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 875
+Underfull \vbox (badness 10000) detected at line 866
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 875
+Overfull \hbox (336.25pt too wide) detected at line 866
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 875
+Underfull \vbox (badness 10000) detected at line 866
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 875
+Overfull \hbox (336.25pt too wide) detected at line 866
 []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 875
+Underfull \vbox (badness 10000) detected at line 866
  []
 
 
-Overfull \hbox (336.25pt too wide) detected at line 875
+Overfull \hbox (336.25pt too wide) detected at line 866
 []
  []
 
@@ -1927,8 +1877,91 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[33
+[31
 
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[32
+
+]
+Underfull \vbox (badness 10000) detected at line 877
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 877
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 877
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 877
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 877
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 877
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 877
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 877
+[]
+ []
+
+Ap\'{e}ndice C.
+(./z_1.bbl
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[33
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1968,89 +2001,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [34
-
-]
-Underfull \vbox (badness 10000) detected at line 886
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 886
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 886
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 886
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 886
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 886
-[]
- []
-
-
-Underfull \vbox (badness 10000) detected at line 886
- []
-
-
-Overfull \hbox (336.25pt too wide) detected at line 886
-[]
- []
-
-Ap\'{e}ndice C.
-(./z_1.bbl
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[35
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (336.25pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][] 
- []
-
-[36
 
 ]
 Underfull \vbox (badness 10000) detected at line 1
@@ -2098,7 +2048,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[37
+[35
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2137,7 +2087,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[38
+[36
 
 ]
 Underfull \hbox (badness 10000) detected at line 1
@@ -2149,7 +2099,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[39
+[37
 
 
 ])
@@ -2165,10 +2115,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 16254 strings out of 478599
- 241916 string characters out of 5858101
- 615361 words of memory out of 5000000
- 33264 multiletter control sequences out of 15000+600000
+ 16240 strings out of 478599
+ 241707 string characters out of 5858101
+ 615182 words of memory out of 5000000
+ 33253 multiletter control sequences out of 15000+600000
  496299 words of font info for 293 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,8n,80p,1177b,680s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2189,10 +2139,10 @@ msy8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
 tmbi8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/tex
 live/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-di
 st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on z_1.pdf (53 pages, 5595211 bytes).
+Output written on z_1.pdf (51 pages, 5466601 bytes).
 PDF statistics:
- 968 PDF objects out of 1000 (max. 8388607)
- 847 compressed objects within 9 object streams
- 245 named destinations out of 1000 (max. 500000)
- 68263 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 954 PDF objects out of 1000 (max. 8388607)
+ 837 compressed objects within 9 object streams
+ 242 named destinations out of 1000 (max. 500000)
+ 68258 words of extra memory for PDF output out of 74296 (max. 10000000)
 

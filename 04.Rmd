@@ -189,10 +189,6 @@ julia_fractal{ <-0.023,0.8,-0.83,-0.095>
 
 Mandelbulb 3D es una aplicación de software libre creada para imágenes fractales en 3D. Desarrollado por Jesse y un grupo de colaboradores de Fractal Forums , basado en el trabajo Mandelbulb de Daniel White y Paul Nylander, MB3D formula docenas de ecuaciones no lineales en una asombrosa variedad de objetos fractales. El entorno de renderizado 3D incluye iluminación, color, especularidad, profundidad de campo, efectos de sombra y brillo; permitiendo al usuario un control fino sobre los efectos de imagen. [mandelbulb-3d](https://www.mandelbulb.com/2014/mandelbulb-3d-mb3d-fractal-rendering-software/).
 
-```{r body2ww, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="La estructura de la figura se sucede de acuerdo a una secuencia, además las protuberencias de los músculos son una coleccion de secuencias (fractal)"}
-knitr::include_graphics('path1042.png')
-```
-
 
 ### Wwwwwwwww
 
