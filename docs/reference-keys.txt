@@ -92,3 +92,10 @@ ecacuaciones-lineales-de-primer-grado
 soluciones-de-ecuacuiones-lineales-de-primer-grado
 soluciones
 forma-matricial-de-una-ecuación-lineal
+el-número-de-oro
+la-sección-áurea
+la-sucesión-áurea
+def:homologia
+def:homotopia
+exm:unnamed-chunk-1
+exm:unnamed-chunk-2

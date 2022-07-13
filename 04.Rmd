@@ -15,7 +15,7 @@ En topología, y más precisamente en topología algebraica, dos aplicaciones co
 :::
 
 ```{r homotopia, echo=FALSE, out.width='50%', fig.pos = "!ht", fig.align="center", fig.cap="Los dos caminos en líneas punteadas que se muestran arriba son homótopos en relación a sus extremos. La animación muestra una posible homotopía entre ellos"}
-knitr::include_graphics('homologia.png')
+knitr::include_graphics('homotopia.png')
 ```
 
 Como @homology comenta:
@@ -34,7 +34,7 @@ Se observa que la *homología* \index{homología} es una *sucesión* de formas q
 En la observación anterior hace referencia de que todo los objetos de tipo secuencial, mantiene la homología.
 
 ```{r homologia, echo=FALSE, out.width='100%', fig.pos = "!ht", fig.align="center", fig.cap="Homología de varios huesos (mostrados en distintos colores) de las extremidades delanteras de cuatro vertebrados"}
-knitr::include_graphics('homologia.png')
+knitr::include_graphics('homotopia.png')
 ```
 
 
@@ -100,6 +100,8 @@ knitr::include_graphics('body2.png')
 Fractal en el canon se genera a partir de la iteracion de proporciones de una figura en particular es decir...
 
 ## Software's generadores de Fractales 2D y 3D
+
+Existen diversos Softwares fractales tanto los generadores de fractales bidimesionales como tridimensionales entre elloos las mas usuales.
 
 ###  POV-Ray (3D)
 
