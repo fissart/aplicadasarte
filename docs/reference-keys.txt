@@ -36,6 +36,10 @@ coordenadas-cartesianas-3d-espacio
 coordenadas-cartesianas-absolutas-y-relativas
 ejercicios
 transformaciones-elementales-sobre-formas-2d-y-3d
+traslacion
+rotación
+homotecia
+reflexión
 transformaciones-topológicas-taza---donuts-zbrush-metamorfosis
 propiedades-preservadas-bajo-transformaciones-topológicas
 género-de-una-superficie

@@ -175,7 +175,13 @@ div.csl-indent {
 <li class="chapter" data-level="1.3.3" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#coordenadas-cartesianas-absolutas-y-relativas"><i class="fa fa-check"></i><b>1.3.3</b> Coordenadas cartesianas absolutas y relativas</a></li>
 <li class="chapter" data-level="1.3.4" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#ejercicios"><i class="fa fa-check"></i><b>1.3.4</b> Ejercicios</a></li>
 </ul></li>
-<li class="chapter" data-level="1.4" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#transformaciones-elementales-sobre-formas-2d-y-3d"><i class="fa fa-check"></i><b>1.4</b> Transformaciones elementales sobre formas 2D y 3D</a></li>
+<li class="chapter" data-level="1.4" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#transformaciones-elementales-sobre-formas-2d-y-3d"><i class="fa fa-check"></i><b>1.4</b> Transformaciones elementales sobre formas 2D y 3D</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#traslacion"><i class="fa fa-check"></i><b>1.4.1</b> Traslacion</a></li>
+<li class="chapter" data-level="1.4.2" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#rotación"><i class="fa fa-check"></i><b>1.4.2</b> Rotación</a></li>
+<li class="chapter" data-level="1.4.3" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#homotecia"><i class="fa fa-check"></i><b>1.4.3</b> Homotecia</a></li>
+<li class="chapter" data-level="1.4.4" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#reflexión"><i class="fa fa-check"></i><b>1.4.4</b> Reflexión</a></li>
+</ul></li>
 <li class="chapter" data-level="1.5" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#transformaciones-topológicas-taza---donuts-zbrush-metamorfosis"><i class="fa fa-check"></i><b>1.5</b> Transformaciones topológicas (Taza - donuts – Zbrush metamorfosis)</a>
 <ul>
 <li class="chapter" data-level="1.5.1" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#propiedades-preservadas-bajo-transformaciones-topológicas"><i class="fa fa-check"></i><b>1.5.1</b> Propiedades preservadas bajo transformaciones topológicas</a></li>
@@ -342,18 +348,20 @@ Las formas 2D y 3D delimitada por una frontera (línea-formas 2d o superficie-fo
 </div>
 <div id="operaciones-con-conjuntos" class="section level2" number="1.2">
 <h2><span class="header-section-number">1.2</span> Operaciones con conjuntos</h2>
+<p>Son las siguientes</p>
 <!--
-Son las siguientes
-
-1. Distanciamiento. Dos formas mantienen una relación de distanciamiento cuando existe una separación entre ellas $𝐹_1\cap 𝐹_2=\emptyset$.
-2. Toque. Existe relación de toque cuando las formas están en contacto $𝐹_1\cap 𝐹_2={𝑝}$ (conjunto unitario).
-3. Superposición. Existe superposición cuando una forma tapa a otra y de esta solo vemos la parte que no está tapada $𝐹_1\cup (𝐹_2-𝐹_1)$.
-4. Unión. Dos formas tienen una relación de unión cuando se funde y los contornos de las dos formas se complementan $𝐹_2\cup 𝐹_1$.
-5. Intersección. Existe relación de intersección entre dos formas cuando surge una nueva forma fruto de la zona común entre ellas. Es decir, ambas formas comparten una superficie del plano y esta genera una nueva forma $𝐹_2\cap 𝐹_1$.
-6. Sustracción. La relación de sustracción se produce cuando una forma no aparece representada, pero resta el espacio común a la otra creando un vacío $𝐹_2-𝐹_1$.
-7. Penetración. Existe relación de penetración entre formas cuando se crea un vacío en el espacio común entre ellas $𝐹_2\: \Delta\: 𝐹_1$.
-2. Transparencia. En una relación de transparencia entre formas, ambas formas comparten un espacio en común, pero se aprecia el contorno de ambas. Podemos entenderlo como una superposición de una forma translúcida sobre otra ($𝐹_2\cup 𝐹_1)\cup (𝐹_1\cap 𝐹_2$).
+1. Distanciamiento. Dos formas mantienen una relación de distanciamiento cuando existe una separación entre ellas
 -->
+<p><span class="math inline">\(F_1\cap F_2=\emptyset\)</span></p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Toque. Existe relación de toque cuando las formas están en contacto <span class="math inline">\(F_1\cap F_2={p}\)</span> (conjunto unitario).</p></li>
+<li><p>Superposición. Existe superposición cuando una forma tapa a otra y de esta solo vemos la parte que no está tapada <span class="math inline">\(F_1\cup (F_2-F_1)\)</span>.</p></li>
+<li><p>Unión. Dos formas tienen una relación de unión cuando se funde y los contornos de las dos formas se complementan <span class="math inline">\(F_2\cup F_1\)</span>.</p></li>
+<li><p>Intersección. Existe relación de intersección entre dos formas cuando surge una nueva forma fruto de la zona común entre ellas. Es decir, ambas formas comparten una superficie del plano y esta genera una nueva forma <span class="math inline">\(F_2\cap F_1\)</span>.</p></li>
+<li><p>Sustracción. La relación de sustracción se produce cuando una forma no aparece representada, pero resta el espacio común a la otra creando un vacío <span class="math inline">\(F_2-F_1\)</span>.</p></li>
+<li><p>Penetración. Existe relación de penetración entre formas cuando se crea un vacío en el espacio común entre ellas <span class="math inline">\(F_2\: \Delta\: F_1\)</span>.</p></li>
+<li><p>Transparencia. En una relación de transparencia entre formas, ambas formas comparten un espacio en común, pero se aprecia el contorno de ambas. Podemos entenderlo como una superposición de una forma translúcida sobre otra (<span class="math inline">\(F_2\cup F_1)\cup (F_1\cap F_2\)</span>).</p></li>
+</ol>
 <div id="relación-entre-operaciones-entre-formas-y-los-fractales" class="section level3" number="1.2.1">
 <h3><span class="header-section-number">1.2.1</span> Relación entre operaciones entre formas y los fractales</h3>
 <p>La relación radica en que estas relaciones deben utilizarse en las iteraciones de las formas en la estructura de un fractal.</p>
@@ -363,26 +371,20 @@ Son las siguientes
 <h2><span class="header-section-number">1.3</span> Coordenadas cartesianas 2d y 3d (Plano y sólidos) - representación de puntos, lineas y planos (Geogebra)</h2>
 <div id="coordenadas-cartesianas-2d-plano" class="section level3" number="1.3.1">
 <h3><span class="header-section-number">1.3.1</span> Coordenadas cartesianas 2D (plano)</h3>
-<!--
-El sistema en sí es un sistema bidimensional, que se denomina plano cartesiano. El punto de intersección de las rectas, por definición, se considera como el punto cero de las rectas y se conoce como origen de las coordenadas. Al eje horizontal o de las abscisas se le asigna los números reales de las equis ("x"); y al eje vertical o de las ordenadas se le asignan los números reales de las ye ("y").
-
-Al cortarse las dos rectas, dividen al plano en cuatro regiones o zonas, que se conocen con el nombre de cuadrantes:
-
-* Primer cuadrante "I": Región superior derecha
-* Segundo cuadrante "II": Región superior izquierda
-* Tercer cuadrante "III": Región inferior izquierda
-* Cuarto cuadrante "IV": Región inferior derecha
-
-Tres ejemplos de coordenadas asignadas a tres puntos diferentes (verde, rojo y azul), sus proyecciones ortogonales sobre los ejes constituyen sus coordenadas cartesianas y el origen de coordenadas (0,0) en magenta.
--->
+<p>El sistema en sí es un sistema bidimensional, que se denomina plano cartesiano. El punto de intersección de las rectas, por definición, se considera como el punto cero de las rectas y se conoce como origen de las coordenadas. Al eje horizontal o de las abscisas se le asigna los números reales de las equis (“x”); y al eje vertical o de las ordenadas se le asignan los números reales de las ye (“y”).</p>
+<p>Al cortarse las dos rectas, dividen al plano en cuatro regiones o zonas, que se conocen con el nombre de cuadrantes:</p>
+<ul>
+<li>Primer cuadrante “I”: Región superior derecha</li>
+<li>Segundo cuadrante “II”: Región superior izquierda</li>
+<li>Tercer cuadrante “III”: Región inferior izquierda</li>
+<li>Cuarto cuadrante “IV”: Región inferior derecha</li>
+</ul>
+<p>Tres ejemplos de coordenadas asignadas a tres puntos diferentes (verde, rojo y azul), sus proyecciones ortogonales sobre los ejes constituyen sus coordenadas cartesianas y el origen de coordenadas (0,0) en magenta.</p>
 </div>
 <div id="coordenadas-cartesianas-3d-espacio" class="section level3" number="1.3.2">
 <h3><span class="header-section-number">1.3.2</span> Coordenadas cartesianas 3D (espacio)</h3>
-<!--
-Las coordenadas cartesianas 3D especifican una ubicación precisa mediante el uso de tres valores de coordenadas X,Y y Z. Especificar valores de coordenadas cartesianas 3D (X,Y,Z) es similar a especificar valores de coordenadas 2D (X,Y). Además de indicar los valores x e y, se debe especificar también el valor z utilizando el formato siguiente: (x,y,z).
-
-En la figura siguiente, la coordenada 3,2,5 indica un punto situado a tres unidades a lo largo del eje X positivo, a 2 unidades a lo largo del eje Y positivo, y a 5 unidades del eje Z positivo
--->
+<p>Las coordenadas cartesianas 3D especifican una ubicación precisa mediante el uso de tres valores de coordenadas X,Y y Z. Especificar valores de coordenadas cartesianas 3D (X,Y,Z) es similar a especificar valores de coordenadas 2D (X,Y). Además de indicar los valores x e y, se debe especificar también el valor z utilizando el formato siguiente: (x,y,z).</p>
+<p>En la figura siguiente, la coordenada 3,2,5 indica un punto situado a tres unidades a lo largo del eje X positivo, a 2 unidades a lo largo del eje Y positivo, y a 5 unidades del eje Z positivo</p>
 </div>
 <div id="coordenadas-cartesianas-absolutas-y-relativas" class="section level3" number="1.3.3">
 <h3><span class="header-section-number">1.3.3</span> Coordenadas cartesianas absolutas y relativas</h3>
@@ -390,80 +392,61 @@ En la figura siguiente, la coordenada 3,2,5 indica un punto situado a tres unida
 </div>
 <div id="ejercicios" class="section level3" number="1.3.4">
 <h3><span class="header-section-number">1.3.4</span> Ejercicios</h3>
-<!--
-* Realice un bosquejo 2D-cartesiano
-* Realice un bosquejo 3D-cartesiano (Ejemplo: diapositiva anterior)
--->
+<ul>
+<li>Realice un bosquejo 2D-cartesiano</li>
+<li>Realice un bosquejo 3D-cartesiano (Ejemplo: diapositiva anterior)</li>
+</ul>
 </div>
 </div>
 <div id="transformaciones-elementales-sobre-formas-2d-y-3d" class="section level2" number="1.4">
 <h2><span class="header-section-number">1.4</span> Transformaciones elementales sobre formas 2D y 3D</h2>
-<!--
-::: {.definition #transformaciones name="Transformaciones"}
-Es un conjunto de procesos que se realiza a alguna forma en particular sin modificar la forma.
-:::
-
-
-
-### Traslacion
-
-En geometría, a la traslación, el movimiento de cada punto a una distancia constante en una dirección dada.
-
-
-### Rotación
-
-Rotación es la acción que ejerce un cuerpo para dar un giro, vuelta o rodar alrededor de su propio eje.
-
-### Homotecia
-
-Escala o proporción, razón de proporción- centro de homotecia
-
-### Reflexión
-
-Cada punto se refleja a través de un eje de simetría en el plano y el espacio el eje simetría recibe el nombre plano especular (simetría especular)
--->
+<div class="definition">
+<p><span id="def:transformaciones" class="definition"><strong>Definición 1.1  (Transformaciones) </strong></span>Es un conjunto de procesos que se realiza a alguna forma en particular sin modificar la forma.</p>
+</div>
+<div id="traslacion" class="section level3" number="1.4.1">
+<h3><span class="header-section-number">1.4.1</span> Traslacion</h3>
+<p>En geometría, a la traslación, el movimiento de cada punto a una distancia constante en una dirección dada.</p>
+</div>
+<div id="rotación" class="section level3" number="1.4.2">
+<h3><span class="header-section-number">1.4.2</span> Rotación</h3>
+<p>Rotación es la acción que ejerce un cuerpo para dar un giro, vuelta o rodar alrededor de su propio eje.</p>
+</div>
+<div id="homotecia" class="section level3" number="1.4.3">
+<h3><span class="header-section-number">1.4.3</span> Homotecia</h3>
+<p>Escala o proporción, razón de proporción- centro de homotecia</p>
+</div>
+<div id="reflexión" class="section level3" number="1.4.4">
+<h3><span class="header-section-number">1.4.4</span> Reflexión</h3>
+<p>Cada punto se refleja a través de un eje de simetría en el plano y el espacio el eje simetría recibe el nombre plano especular (simetría especular)</p>
+</div>
 </div>
 <div id="transformaciones-topológicas-taza---donuts-zbrush-metamorfosis" class="section level2" number="1.5">
 <h2><span class="header-section-number">1.5</span> Transformaciones topológicas (Taza - donuts – Zbrush metamorfosis)</h2>
-<!--
-De manera informal, la topología se ocupa de aquellas propiedades de las figuras que permanecen invariantes, cuando dichas figuras son plegadas, dilatadas, contraídas o deformadas, de modo que no aparezcan nuevos puntos, o se hagan coincidir puntos diferentes. La transformación permitida presupone, en otras palabras, que hay una correspondencia biunívoca entre los puntos de la figura original y los de la transformada, y que la deformación hace corresponder puntos próximos a puntos próximos. Esta última propiedad se llama continuidad, y lo que se requiere es que la transformación y su inversa sean ambas continuas: así, trabajarnos con homeomorfismos.
-
-::: {.definition #transformacionestopo name="Transformaciones topológicas"}
-Consiste en doblar, estirar, encoger, retorcer, etc., los objetos, pero siempre que se haga sin romper ni separar lo que estaba unido, ni pegar lo que estaba separado. Por ejemplo, un triángulo es topológicamente lo mismo que una circunferencia, ya que
-podemos transformar uno en otra de forma continua, sin romper ni pegar. Pero una circunferencia no es lo mismo que un segmento, ya que habría que partirla (o pegarla) por algún punto.
-
-Esta es la razón de que se la llame la "geometría de la página de goma", porque es como si estuviéramos estudiando geometría sobre un papel de goma que pudiera contraerse, estirarse, etc.
-:::
-
-La esfera se trasforma topológicamente en un elefante. Pero el toro no puede transformase en una esfera
--->
+<p>De manera informal, la topología se ocupa de aquellas propiedades de las figuras que permanecen invariantes, cuando dichas figuras son plegadas, dilatadas, contraídas o deformadas, de modo que no aparezcan nuevos puntos, o se hagan coincidir puntos diferentes. La transformación permitida presupone, en otras palabras, que hay una correspondencia biunívoca entre los puntos de la figura original y los de la transformada, y que la deformación hace corresponder puntos próximos a puntos próximos. Esta última propiedad se llama continuidad, y lo que se requiere es que la transformación y su inversa sean ambas continuas: así, trabajarnos con homeomorfismos.</p>
+<div class="definition">
+<p><span id="def:transformacionestopo" class="definition"><strong>Definición 1.2  (Transformaciones topológicas) </strong></span>Consiste en doblar, estirar, encoger, retorcer, etc., los objetos, pero siempre que se haga sin romper ni separar lo que estaba unido, ni pegar lo que estaba separado. Por ejemplo, un triángulo es topológicamente lo mismo que una circunferencia, ya que
+podemos transformar uno en otra de forma continua, sin romper ni pegar. Pero una circunferencia no es lo mismo que un segmento, ya que habría que partirla (o pegarla) por algún punto.</p>
+<p>Esta es la razón de que se la llame la “geometría de la página de goma,” porque es como si estuviéramos estudiando geometría sobre un papel de goma que pudiera contraerse, estirarse, etc.</p>
+</div>
+<p>La esfera se trasforma topológicamente en un elefante. Pero el toro no puede transformase en una esfera</p>
 <div id="propiedades-preservadas-bajo-transformaciones-topológicas" class="section level3" number="1.5.1">
 <h3><span class="header-section-number">1.5.1</span> Propiedades preservadas bajo transformaciones topológicas</h3>
-<!--
-Algunas propiedades se conservan bajo transformaciones topológicas y otras no. La propiedad de un círculo de ser una curva cerrada simple es una propiedad que se conserva bajo una transformación topológica arbitraria. Es una propiedad topológica. La superficie de una esfera tiene las siguientes dos propiedades que se conservan bajo una transformación topológica arbitraria.
+<p>Algunas propiedades se conservan bajo transformaciones topológicas y otras no. La propiedad de un círculo de ser una curva cerrada simple es una propiedad que se conserva bajo una transformación topológica arbitraria. Es una propiedad topológica. La superficie de una esfera tiene las siguientes dos propiedades que se conservan bajo una transformación topológica arbitraria.
 1. La superficie está cerrada. No hay bordes en él (como con un cuadrado).
-2. Toda curva simple cerrada en su superficie representa una disección de la misma en este sentido: si hacemos un corte a lo largo de la curva, la superficie se separa en dos partes inconexas.
--->
+2. Toda curva simple cerrada en su superficie representa una disección de la misma en este sentido: si hacemos un corte a lo largo de la curva, la superficie se separa en dos partes inconexas.</p>
 </div>
 <div id="género-de-una-superficie" class="section level3" number="1.5.2">
 <h3><span class="header-section-number">1.5.2</span> Género de una superficie</h3>
-<!--
-El género de una superficie es su tipo topológico. Las superficies del mismo género son topológicamente equivalentes entre sí. Las superficies de diferentes géneros no son topológicamente equivalentes. ¿Qué característica de una superficie nos permite determinar su género. La característica es esta: el mayor número de curvas cerradas simples que no se cruzan que se pueden dibujar en la superficie sin separarla (es decir, hacer que la superficie se separe en partes desconectadas cuando se hacen cortes a lo largo de las curvas).
-
-::: {.example name="Transformación topológicas de la $N$ esfera"}
-El género de una esfera es 0 ya que no se pueden dibujar tales curvas en su superficie sin separarla. El género de un toro es 1, y no más de uno tales curvas se pueden dibujar en su superficie sin separarlo. Considere ahora la rosquilla de doble orificio que se muestra en la Fig. 5. Tiene un género de 2 ya que dos, pero no más, de tales curvas se pueden dibujar en su superficie sin separarla. De manera similar, una rosquilla con tres orificios tiene un género de 3 desde tres, y no más, tales curvas se pueden dibujar en su superficie sin separarla, y en general, una rosquilla con orificios p tiene un género de p desde p (y no más) tales curvas se pueden dibujar en su superficie sin separarla.
-:::
--->
+<p>El género de una superficie es su tipo topológico. Las superficies del mismo género son topológicamente equivalentes entre sí. Las superficies de diferentes géneros no son topológicamente equivalentes. ¿Qué característica de una superficie nos permite determinar su género. La característica es esta: el mayor número de curvas cerradas simples que no se cruzan que se pueden dibujar en la superficie sin separarla (es decir, hacer que la superficie se separe en partes desconectadas cuando se hacen cortes a lo largo de las curvas).</p>
+<div class="example">
+<p><span id="exm:unlabeled-div-1" class="example"><strong>Ejemplo 1.1  (Transformación topológicas de la $N$ esfera) </strong></span>El género de una esfera es 0 ya que no se pueden dibujar tales curvas en su superficie sin separarla. El género de un toro es 1, y no más de uno tales curvas se pueden dibujar en su superficie sin separarlo. Considere ahora la rosquilla de doble orificio que se muestra en la Fig. 5. Tiene un género de 2 ya que dos, pero no más, de tales curvas se pueden dibujar en su superficie sin separarla. De manera similar, una rosquilla con tres orificios tiene un género de 3 desde tres, y no más, tales curvas se pueden dibujar en su superficie sin separarla, y en general, una rosquilla con orificios p tiene un género de p desde p (y no más) tales curvas se pueden dibujar en su superficie sin separarla.</p>
+</div>
 </div>
 <div id="superficies-de-una-sola-cara-o-superficies-no-orientables" class="section level3" number="1.5.3">
 <h3><span class="header-section-number">1.5.3</span> Superficies de una sola cara o superficies no orientables</h3>
-<!--
-El espacio en dos dominios, uno interior y otro exterior, constituyendo la superficie el límite común entre los dos dominios. Este hecho está conectado con otro. Ahora demostraremos algunas superficies que tienen un solo lado. La primera que exponemos es la cinta de Móbius se construye tomando una larga banda rectangular de papel y pegando los dos extremos después de darle media vuelta como se muestra en la Fig. 8. Una extensión es la botella de Klein.
-
-https://solitaryroad.com/c775.html
-https://en.wikipedia.org/wiki/Topology
-
--->
+<p>El espacio en dos dominios, uno interior y otro exterior, constituyendo la superficie el límite común entre los dos dominios. Este hecho está conectado con otro. Ahora demostraremos algunas superficies que tienen un solo lado. La primera que exponemos es la cinta de Móbius se construye tomando una larga banda rectangular de papel y pegando los dos extremos después de darle media vuelta como se muestra en la Fig. 8. Una extensión es la botella de Klein.</p>
+<p><a href="https://solitaryroad.com/c775.html" class="uri">https://solitaryroad.com/c775.html</a>
+<a href="https://en.wikipedia.org/wiki/Topology" class="uri">https://en.wikipedia.org/wiki/Topology</a></p>
 </div>
 </div>
 <div id="recursividad-o-iteración-de-transformaciones-2d-y-3d-secuencias" class="section level2" number="1.6">
