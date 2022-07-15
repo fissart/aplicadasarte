@@ -1,6 +1,5 @@
 # Número  áureo como un fractal
 
-
 La geometría tiene dos grandes tratados: uno es el teorema de Pitágoras; el otro, la división de una linea en extrema y media razón. El primero, podemos compararla a una medida de oro; el segundo podemos nombrarla como una preciosa joya @Ghy77
 y @ghyka1977geometry.
 
@@ -15,7 +14,9 @@ es decir podemos empezar diciendo que $\frac{AB}{AE}=\frac{AE}{EB}=\frac{\sqrt{5
 ```{r aureo1, echo=FALSE, out.width='50%', fig.pos = "!ht", fig.align="center", fig.cap="Ubicación de la sección aurea"}
 knitr::include_graphics('book1.png')
 ```
-### Propiedades del número
+
+
+### Propiedades del número áureo
 
 
 
@@ -31,8 +32,6 @@ La sucecion de Fibonnacci es la sucecion de numeros entros postivos
 $$F=S_n={1,1,2,3,5,8,13,21,34, \ldots}$$
 
 ## Rectángulos dinámicos
-
-
 
 ## Pentágono y triángulo áureo (Composición).
 

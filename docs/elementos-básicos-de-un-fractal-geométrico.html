@@ -23,14 +23,14 @@
 <meta name="author" content="Ricardo Michel MALLQUI BAÑOS" />
 
 
-<meta name="date" content="2022-07-13" />
+<meta name="date" content="2022-07-14" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
+<link rel="prev" href="introducción.html"/>
 <link rel="next" href="número-áureo-como-un-fractal.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -52,6 +52,70 @@
  <link rel="icon" type="image/x-icon" href="favicon.ico"> 
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
@@ -90,26 +154,41 @@ div.csl-indent {
 
 <ul class="summary">
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Resumen</a></li>
+<li class="chapter" data-level="" data-path="introducción.html"><a href="introducción.html"><i class="fa fa-check"></i>Introducción</a></li>
 <li class="chapter" data-level="1" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html"><i class="fa fa-check"></i><b>1</b> Elementos básicos de un fractal geométrico</a>
 <ul>
-<li class="chapter" data-level="1.1" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#conjuntos-reconocer-conjuntos-como-una---conexidad---mobius-y-klein"><i class="fa fa-check"></i><b>1.1</b> Conjuntos (Reconocer conjuntos como una  - conexidad - Mobius y Klein)</a></li>
-<li class="chapter" data-level="1.2" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#operaciones-con-conjuntos-relaciones-unión-intersección-diferencia-diferencia-simétrica-etc"><i class="fa fa-check"></i><b>1.2</b> Operaciones con conjuntos (Relaciones – unión-intersección-diferencia-diferencia simétrica, etc)</a></li>
-<li class="chapter" data-level="1.3" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#cartesianas-2d-y-3d-plano-y-sólidos---representación-de-puntos-lineas-y-planos-geogebra"><i class="fa fa-check"></i><b>1.3</b>  cartesianas 2d y 3d (Plano y sólidos) - representación de puntos, lineas y planos (Geogebra)</a></li>
-<li class="chapter" data-level="1.4" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#transformaciones-elementales-sobre-formas-2d-y-3d"><i class="fa fa-check"></i><b>1.4</b> Transformaciones elementales sobre formas 2D y 3D</a>
+<li class="chapter" data-level="1.1" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#conjuntos-reconocer-conjuntos-como-una-forma---conexidad---mobius-y-klein"><i class="fa fa-check"></i><b>1.1</b> Conjuntos (Reconocer conjuntos como una forma - conexidad - Mobius y Klein)</a>
 <ul>
-<li class="chapter" data-level="1.4.1" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#traslacion"><i class="fa fa-check"></i><b>1.4.1</b> Traslacion</a></li>
-<li class="chapter" data-level="1.4.2" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#rotación"><i class="fa fa-check"></i><b>1.4.2</b> Rotación</a></li>
-<li class="chapter" data-level="1.4.3" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#homotecia"><i class="fa fa-check"></i><b>1.4.3</b> Homotecia</a></li>
-<li class="chapter" data-level="1.4.4" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#reflexión"><i class="fa fa-check"></i><b>1.4.4</b> Reflexión</a></li>
+<li class="chapter" data-level="1.1.1" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#elementos-primarios-de-la-forma"><i class="fa fa-check"></i><b>1.1.1</b> Elementos primarios de la forma</a></li>
+<li class="chapter" data-level="1.1.2" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#clasificación-de-las-formas"><i class="fa fa-check"></i><b>1.1.2</b> Clasificación de las formas</a></li>
+<li class="chapter" data-level="1.1.3" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#centro-de-masa-y-ejes-de-las-formas"><i class="fa fa-check"></i><b>1.1.3</b> Centro de masa y ejes de las formas</a></li>
+<li class="chapter" data-level="1.1.4" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#algebra-de-formas-conjuntos"><i class="fa fa-check"></i><b>1.1.4</b> Algebra de formas (conjuntos)</a></li>
 </ul></li>
-<li class="chapter" data-level="1.5" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#transformaciones-topológicas-taza---donuts-zbrush-metamorfosis"><i class="fa fa-check"></i><b>1.5</b> Transformaciones topológicas (Taza - donuts – Zbrush metamorfosis)</a></li>
+<li class="chapter" data-level="1.2" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#operaciones-con-conjuntos"><i class="fa fa-check"></i><b>1.2</b> Operaciones con conjuntos</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#relación-entre-operaciones-entre-formas-y-los-fractales"><i class="fa fa-check"></i><b>1.2.1</b> Relación entre operaciones entre formas y los fractales</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#coordenadas-cartesianas-2d-y-3d-plano-y-sólidos---representación-de-puntos-lineas-y-planos-geogebra"><i class="fa fa-check"></i><b>1.3</b> Coordenadas cartesianas 2d y 3d (Plano y sólidos) - representación de puntos, lineas y planos (Geogebra)</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#coordenadas-cartesianas-2d-plano"><i class="fa fa-check"></i><b>1.3.1</b> Coordenadas cartesianas 2D (plano)</a></li>
+<li class="chapter" data-level="1.3.2" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#coordenadas-cartesianas-3d-espacio"><i class="fa fa-check"></i><b>1.3.2</b> Coordenadas cartesianas 3D (espacio)</a></li>
+<li class="chapter" data-level="1.3.3" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#coordenadas-cartesianas-absolutas-y-relativas"><i class="fa fa-check"></i><b>1.3.3</b> Coordenadas cartesianas absolutas y relativas</a></li>
+<li class="chapter" data-level="1.3.4" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#ejercicios"><i class="fa fa-check"></i><b>1.3.4</b> Ejercicios</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#transformaciones-elementales-sobre-formas-2d-y-3d"><i class="fa fa-check"></i><b>1.4</b> Transformaciones elementales sobre formas 2D y 3D</a></li>
+<li class="chapter" data-level="1.5" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#transformaciones-topológicas-taza---donuts-zbrush-metamorfosis"><i class="fa fa-check"></i><b>1.5</b> Transformaciones topológicas (Taza - donuts – Zbrush metamorfosis)</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#propiedades-preservadas-bajo-transformaciones-topológicas"><i class="fa fa-check"></i><b>1.5.1</b> Propiedades preservadas bajo transformaciones topológicas</a></li>
+<li class="chapter" data-level="1.5.2" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#género-de-una-superficie"><i class="fa fa-check"></i><b>1.5.2</b> Género de una superficie</a></li>
+<li class="chapter" data-level="1.5.3" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#superficies-de-una-sola-cara-o-superficies-no-orientables"><i class="fa fa-check"></i><b>1.5.3</b> Superficies de una sola cara o superficies no orientables</a></li>
+</ul></li>
 <li class="chapter" data-level="1.6" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#recursividad-o-iteración-de-transformaciones-2d-y-3d-secuencias"><i class="fa fa-check"></i><b>1.6</b> Recursividad o iteración de transformaciones 2D y 3D (Secuencias)</a></li>
 <li class="chapter" data-level="1.7" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#principios-de-la-composición-y-las-transformaciones-relación-fractal"><i class="fa fa-check"></i><b>1.7</b> Principios de la composición y las transformaciones (Relación-fractal)</a></li>
 <li class="chapter" data-level="1.8" data-path="elementos-básicos-de-un-fractal-geométrico.html"><a href="elementos-básicos-de-un-fractal-geométrico.html#sustentación-de-trabajos"><i class="fa fa-check"></i><b>1.8</b> Sustentación de trabajos ()</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html"><i class="fa fa-check"></i><b>2</b> Número áureo como un fractal</a>
 <ul>
-<li class="chapter" data-level="2.0.1" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html#propiedades-del-número"><i class="fa fa-check"></i><b>2.0.1</b> Propiedades del número</a></li>
+<li class="chapter" data-level="2.0.1" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html#propiedades-del-número-áureo"><i class="fa fa-check"></i><b>2.0.1</b> Propiedades del número áureo</a></li>
 <li class="chapter" data-level="2.1" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html#número-áureo-proporción-áurea-sección-áurea-aplicaciones"><i class="fa fa-check"></i><b>2.1</b> Número áureo, proporción áurea, sección áurea (Aplicaciones)</a></li>
 <li class="chapter" data-level="2.2" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html#rectángulo-áureo-rectángulos-áureos-y-composición"><i class="fa fa-check"></i><b>2.2</b> Rectángulo áureo (Rectángulos áureos) y composición</a></li>
 <li class="chapter" data-level="2.3" data-path="número-áureo-como-un-fractal.html"><a href="número-áureo-como-un-fractal.html#sucesiones-de-fibonnacci-relacionado-con-el-número-áureo"><i class="fa fa-check"></i><b>2.3</b> Sucesiones de Fibonnacci relacionado con el número áureo</a></li>
@@ -165,7 +244,7 @@ div.csl-indent {
 </ul></li>
 <li class="chapter" data-level="6" data-path="topologia-y-geometria-diferencial-de-las-formas.html"><a href="topologia-y-geometria-diferencial-de-las-formas.html"><i class="fa fa-check"></i><b>6</b> Topologia y geometria diferencial de las formas</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="topologia-y-geometria-diferencial-de-las-formas.html"><a href="topologia-y-geometria-diferencial-de-las-formas.html#ejercicios"><i class="fa fa-check"></i><b>6.1</b> Ejercicios</a></li>
+<li class="chapter" data-level="6.1" data-path="topologia-y-geometria-diferencial-de-las-formas.html"><a href="topologia-y-geometria-diferencial-de-las-formas.html#ejercicios-1"><i class="fa fa-check"></i><b>6.1</b> Ejercicios</a></li>
 </ul></li>
 <li class="appendix"><span><b>Apendice</b></span></li>
 <li class="chapter" data-level="A" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>A</b> Proporción y canon</a>
@@ -173,11 +252,17 @@ div.csl-indent {
 <li class="chapter" data-level="A.1" data-path="intro.html"><a href="intro.html#razón"><i class="fa fa-check"></i><b>A.1</b> Razón</a></li>
 <li class="chapter" data-level="A.2" data-path="intro.html"><a href="intro.html#proporciones"><i class="fa fa-check"></i><b>A.2</b> Proporciones</a></li>
 <li class="chapter" data-level="A.3" data-path="intro.html"><a href="intro.html#canon"><i class="fa fa-check"></i><b>A.3</b> Canon</a></li>
-<li class="chapter" data-level="A.4" data-path="intro.html"><a href="intro.html#raices-de-una-ecuacion-de-segundo-grado"><i class="fa fa-check"></i><b>A.4</b> Raices de una ecuacion de segundo grado</a></li>
-<li class="chapter" data-level="A.5" data-path="intro.html"><a href="intro.html#propiedades-de-una-ecuacion-de-segundo-grado"><i class="fa fa-check"></i><b>A.5</b> Propiedades de una ecuacion de segundo grado</a></li>
-<li class="chapter" data-level="A.6" data-path="intro.html"><a href="intro.html#soluciones-de-ecuacuiones-lineales-de-primer-grado"><i class="fa fa-check"></i><b>A.6</b> Soluciones de ecuacuiones lineales de primer grado</a></li>
-<li class="chapter" data-level="A.7" data-path="intro.html"><a href="intro.html#soluciones"><i class="fa fa-check"></i><b>A.7</b> Soluciones …</a></li>
-<li class="chapter" data-level="A.8" data-path="intro.html"><a href="intro.html#forma-matricial-de-una-ecuación-lineal"><i class="fa fa-check"></i><b>A.8</b> Forma matricial de una ecuación lineal</a></li>
+</ul></li>
+<li class="chapter" data-level="B" data-path="perspectiva-cónica.html"><a href="perspectiva-cónica.html"><i class="fa fa-check"></i><b>B</b> Perspectiva cónica</a>
+<ul>
+<li class="chapter" data-level="B.1" data-path="perspectiva-cónica.html"><a href="perspectiva-cónica.html#raices-de-una-ecuacion-de-segundo-grado"><i class="fa fa-check"></i><b>B.1</b> Raices de una ecuacion de segundo grado</a></li>
+<li class="chapter" data-level="B.2" data-path="perspectiva-cónica.html"><a href="perspectiva-cónica.html#propiedades-de-una-ecuacion-de-segundo-grado"><i class="fa fa-check"></i><b>B.2</b> Propiedades de una ecuacion de segundo grado</a></li>
+</ul></li>
+<li class="chapter" data-level="C" data-path="ecacuaciones-lineales-de-primer-grado.html"><a href="ecacuaciones-lineales-de-primer-grado.html"><i class="fa fa-check"></i><b>C</b> Ecacuaciones lineales de primer grado</a>
+<ul>
+<li class="chapter" data-level="C.1" data-path="ecacuaciones-lineales-de-primer-grado.html"><a href="ecacuaciones-lineales-de-primer-grado.html#soluciones-de-ecuacuiones-lineales-de-primer-grado"><i class="fa fa-check"></i><b>C.1</b> Soluciones de ecuacuiones lineales de primer grado</a></li>
+<li class="chapter" data-level="C.2" data-path="ecacuaciones-lineales-de-primer-grado.html"><a href="ecacuaciones-lineales-de-primer-grado.html#soluciones"><i class="fa fa-check"></i><b>C.2</b> Soluciones …</a></li>
+<li class="chapter" data-level="C.3" data-path="ecacuaciones-lineales-de-primer-grado.html"><a href="ecacuaciones-lineales-de-primer-grado.html#forma-matricial-de-una-ecuación-lineal"><i class="fa fa-check"></i><b>C.3</b> Forma matricial de una ecuación lineal</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="referencias.html"><a href="referencias.html"><i class="fa fa-check"></i>Referencias</a></li>
 </ul>
@@ -199,41 +284,187 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="elementos-básicos-de-un-fractal-geométrico" class="section level1" number="1">
 <h1><span class="header-section-number">Capítulo 1</span> Elementos básicos de un fractal geométrico</h1>
-<div id="conjuntos-reconocer-conjuntos-como-una---conexidad---mobius-y-klein" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Conjuntos (Reconocer conjuntos como una  - conexidad - Mobius y Klein)</h2>
-<!--
-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
-https://github.com/cli/cli/blob/trunk/docs/install_linux.md
--->
-<p><span class="citation">(<a href="#ref-leithold1990calculus" role="doc-biblioref">Leithold 1990</a>)</span></p>
+<p>Son necesarios conceptos preliminares …</p>
+<div id="conjuntos-reconocer-conjuntos-como-una-forma---conexidad---mobius-y-klein" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Conjuntos (Reconocer conjuntos como una forma - conexidad - Mobius y Klein)</h2>
+<p>Una forma es una colección de puntos en el espacio 0D, 1D, 2D y 3D.
+Las formas 0D y 1D son el punto y la línea respectivamente. Cuyas características son: Posición, en el caso del punto. Posición, dirección (el ángulo de inclinación con respecto a la horizontal en sentido anti horario), longitud y centro de masa en el caso de las líneas.
+Las formas 2D y 3D delimitada por una frontera (línea-formas 2d o superficie-formas 3d). Cuya características son: Posición, dirección, área o volumen, eje, centro de masa. Existen dos tipos de superficie: Orientables (poseen dos caras) por ejemplo el toro, la esfera, etc. No orientables por ejemplo la Botella de Klein y la Cinta Mobius.</p>
+<div id="elementos-primarios-de-la-forma" class="section level3" number="1.1.1">
+<h3><span class="header-section-number">1.1.1</span> Elementos primarios de la forma</h3>
+<ol style="list-style-type: decimal">
+<li>Punto.</li>
+<li>Línea (rectas(vertical-horizontal-diagonal-quebrada), curvas y mixtas)</li>
+<li>Plano o superficie: <a href="https://www.geogebra.org/m/bzAhy4Yv" class="uri">https://www.geogebra.org/m/bzAhy4Yv</a></li>
+<li>Volumen: <a href="https://www.geogebra.org/classic/cff7ma3b" class="uri">https://www.geogebra.org/classic/cff7ma3b</a></li>
+</ol>
+</div>
+<div id="clasificación-de-las-formas" class="section level3" number="1.1.2">
+<h3><span class="header-section-number">1.1.2</span> Clasificación de las formas</h3>
+<ol style="list-style-type: decimal">
+<li>Según su origen
+<ul>
+<li>Naturales: Creadas por la naturaleza.</li>
+<li>Artificiales: Creadas por el ser humano.</li>
+</ul></li>
+<li>Según su estructura
+<ul>
+<li>Formas orgánicas: tienen un perfil y una superficie interior irregulares. En muchos casos proceden de la naturaleza (una piedra, un árbol, el dibujo del ala de una mariposa).</li>
+<li>Formas geométricas: son las formas que se crean a partir de un orden y proceso matemático o geométrico, un panal de abejas (vértices, aristas y planos).</li>
+</ul></li>
+<li>Según la relación con el espacio
+<ul>
+<li>Formas cerradas: Encierran región .</li>
+<li>Formas abiertas: No encierran una región.</li>
+</ul></li>
+<li>Según su configuración espacial
+<ul>
+<li>Formas planas: son aquellas que tienen dos dimensiones.</li>
+<li>Formas tridimensionales: son formas que tienen tres dimensiones</li>
+</ul></li>
+<li>Según la complejidad de su estructura
+<ul>
+<li>Formas simples: son las que están compuestas por pocos elementos.</li>
+<li>Formas complejas: son formas compuestas por varios elementos.</li>
+</ul></li>
+</ol>
+</div>
+<div id="centro-de-masa-y-ejes-de-las-formas" class="section level3" number="1.1.3">
+<h3><span class="header-section-number">1.1.3</span> Centro de masa y ejes de las formas</h3>
+<p>El centro de masas representa el punto en el que suponemos que se concentra toda la masa del sistema para su estudio. El eje es cualquier recta que pasa por su centro de masa. El eje que contiene al mayor segmento de intersección con el objeto es el eje principal</p>
+</div>
+<div id="algebra-de-formas-conjuntos" class="section level3" number="1.1.4">
+<h3><span class="header-section-number">1.1.4</span> Algebra de formas (conjuntos)</h3>
+<p>www
+<span class="citation">(<a href="#ref-leithold1990calculus" role="doc-biblioref">Leithold 1990</a>)</span></p>
 <p><em>fracción impropia</em> </p>
 </div>
-<div id="operaciones-con-conjuntos-relaciones-unión-intersección-diferencia-diferencia-simétrica-etc" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Operaciones con conjuntos (Relaciones – unión-intersección-diferencia-diferencia simétrica, etc)</h2>
-<p><span class="citation">(<a href="#ref-stigt1996" role="doc-biblioref"><strong>stigt1996?</strong></a>)</span>
-<span class="citation">(<a href="#ref-langlois2021" role="doc-biblioref"><strong>langlois2021?</strong></a>)</span></p>
 </div>
-<div id="cartesianas-2d-y-3d-plano-y-sólidos---representación-de-puntos-lineas-y-planos-geogebra" class="section level2" number="1.3">
-<h2><span class="header-section-number">1.3</span>  cartesianas 2d y 3d (Plano y sólidos) - representación de puntos, lineas y planos (Geogebra)</h2>
-<p>Es necesario un sistema de refrencia en la representacion por eso es impostante su estudio</p>
+<div id="operaciones-con-conjuntos" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Operaciones con conjuntos</h2>
+<!--
+Son las siguientes
+
+1. Distanciamiento. Dos formas mantienen una relación de distanciamiento cuando existe una separación entre ellas $𝐹_1\cap 𝐹_2=\emptyset$.
+2. Toque. Existe relación de toque cuando las formas están en contacto $𝐹_1\cap 𝐹_2={𝑝}$ (conjunto unitario).
+3. Superposición. Existe superposición cuando una forma tapa a otra y de esta solo vemos la parte que no está tapada $𝐹_1\cup (𝐹_2-𝐹_1)$.
+4. Unión. Dos formas tienen una relación de unión cuando se funde y los contornos de las dos formas se complementan $𝐹_2\cup 𝐹_1$.
+5. Intersección. Existe relación de intersección entre dos formas cuando surge una nueva forma fruto de la zona común entre ellas. Es decir, ambas formas comparten una superficie del plano y esta genera una nueva forma $𝐹_2\cap 𝐹_1$.
+6. Sustracción. La relación de sustracción se produce cuando una forma no aparece representada, pero resta el espacio común a la otra creando un vacío $𝐹_2-𝐹_1$.
+7. Penetración. Existe relación de penetración entre formas cuando se crea un vacío en el espacio común entre ellas $𝐹_2\: \Delta\: 𝐹_1$.
+2. Transparencia. En una relación de transparencia entre formas, ambas formas comparten un espacio en común, pero se aprecia el contorno de ambas. Podemos entenderlo como una superposición de una forma translúcida sobre otra ($𝐹_2\cup 𝐹_1)\cup (𝐹_1\cap 𝐹_2$).
+-->
+<div id="relación-entre-operaciones-entre-formas-y-los-fractales" class="section level3" number="1.2.1">
+<h3><span class="header-section-number">1.2.1</span> Relación entre operaciones entre formas y los fractales</h3>
+<p>La relación radica en que estas relaciones deben utilizarse en las iteraciones de las formas en la estructura de un fractal.</p>
+</div>
+</div>
+<div id="coordenadas-cartesianas-2d-y-3d-plano-y-sólidos---representación-de-puntos-lineas-y-planos-geogebra" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> Coordenadas cartesianas 2d y 3d (Plano y sólidos) - representación de puntos, lineas y planos (Geogebra)</h2>
+<div id="coordenadas-cartesianas-2d-plano" class="section level3" number="1.3.1">
+<h3><span class="header-section-number">1.3.1</span> Coordenadas cartesianas 2D (plano)</h3>
+<!--
+El sistema en sí es un sistema bidimensional, que se denomina plano cartesiano. El punto de intersección de las rectas, por definición, se considera como el punto cero de las rectas y se conoce como origen de las coordenadas. Al eje horizontal o de las abscisas se le asigna los números reales de las equis ("x"); y al eje vertical o de las ordenadas se le asignan los números reales de las ye ("y").
+
+Al cortarse las dos rectas, dividen al plano en cuatro regiones o zonas, que se conocen con el nombre de cuadrantes:
+
+* Primer cuadrante "I": Región superior derecha
+* Segundo cuadrante "II": Región superior izquierda
+* Tercer cuadrante "III": Región inferior izquierda
+* Cuarto cuadrante "IV": Región inferior derecha
+
+Tres ejemplos de coordenadas asignadas a tres puntos diferentes (verde, rojo y azul), sus proyecciones ortogonales sobre los ejes constituyen sus coordenadas cartesianas y el origen de coordenadas (0,0) en magenta.
+-->
+</div>
+<div id="coordenadas-cartesianas-3d-espacio" class="section level3" number="1.3.2">
+<h3><span class="header-section-number">1.3.2</span> Coordenadas cartesianas 3D (espacio)</h3>
+<!--
+Las coordenadas cartesianas 3D especifican una ubicación precisa mediante el uso de tres valores de coordenadas X,Y y Z. Especificar valores de coordenadas cartesianas 3D (X,Y,Z) es similar a especificar valores de coordenadas 2D (X,Y). Además de indicar los valores x e y, se debe especificar también el valor z utilizando el formato siguiente: (x,y,z).
+
+En la figura siguiente, la coordenada 3,2,5 indica un punto situado a tres unidades a lo largo del eje X positivo, a 2 unidades a lo largo del eje Y positivo, y a 5 unidades del eje Z positivo
+-->
+</div>
+<div id="coordenadas-cartesianas-absolutas-y-relativas" class="section level3" number="1.3.3">
+<h3><span class="header-section-number">1.3.3</span> Coordenadas cartesianas absolutas y relativas</h3>
+<p>Como en el caso de las coordenadas bidimensionales, se pueden introducir valores de coordenada absoluta, basados en el origen, o valores de coordenada relativa, basados en el último punto introducido.</p>
+</div>
+<div id="ejercicios" class="section level3" number="1.3.4">
+<h3><span class="header-section-number">1.3.4</span> Ejercicios</h3>
+<!--
+* Realice un bosquejo 2D-cartesiano
+* Realice un bosquejo 3D-cartesiano (Ejemplo: diapositiva anterior)
+-->
+</div>
 </div>
 <div id="transformaciones-elementales-sobre-formas-2d-y-3d" class="section level2" number="1.4">
 <h2><span class="header-section-number">1.4</span> Transformaciones elementales sobre formas 2D y 3D</h2>
-<div id="traslacion" class="section level3" number="1.4.1">
-<h3><span class="header-section-number">1.4.1</span> Traslacion</h3>
-</div>
-<div id="rotación" class="section level3" number="1.4.2">
-<h3><span class="header-section-number">1.4.2</span> Rotación</h3>
-</div>
-<div id="homotecia" class="section level3" number="1.4.3">
-<h3><span class="header-section-number">1.4.3</span> Homotecia</h3>
-</div>
-<div id="reflexión" class="section level3" number="1.4.4">
-<h3><span class="header-section-number">1.4.4</span> Reflexión</h3>
-</div>
+<!--
+::: {.definition #transformaciones name="Transformaciones"}
+Es un conjunto de procesos que se realiza a alguna forma en particular sin modificar la forma.
+:::
+
+
+
+### Traslacion
+
+En geometría, a la traslación, el movimiento de cada punto a una distancia constante en una dirección dada.
+
+
+### Rotación
+
+Rotación es la acción que ejerce un cuerpo para dar un giro, vuelta o rodar alrededor de su propio eje.
+
+### Homotecia
+
+Escala o proporción, razón de proporción- centro de homotecia
+
+### Reflexión
+
+Cada punto se refleja a través de un eje de simetría en el plano y el espacio el eje simetría recibe el nombre plano especular (simetría especular)
+-->
 </div>
 <div id="transformaciones-topológicas-taza---donuts-zbrush-metamorfosis" class="section level2" number="1.5">
 <h2><span class="header-section-number">1.5</span> Transformaciones topológicas (Taza - donuts – Zbrush metamorfosis)</h2>
+<!--
+De manera informal, la topología se ocupa de aquellas propiedades de las figuras que permanecen invariantes, cuando dichas figuras son plegadas, dilatadas, contraídas o deformadas, de modo que no aparezcan nuevos puntos, o se hagan coincidir puntos diferentes. La transformación permitida presupone, en otras palabras, que hay una correspondencia biunívoca entre los puntos de la figura original y los de la transformada, y que la deformación hace corresponder puntos próximos a puntos próximos. Esta última propiedad se llama continuidad, y lo que se requiere es que la transformación y su inversa sean ambas continuas: así, trabajarnos con homeomorfismos.
+
+::: {.definition #transformacionestopo name="Transformaciones topológicas"}
+Consiste en doblar, estirar, encoger, retorcer, etc., los objetos, pero siempre que se haga sin romper ni separar lo que estaba unido, ni pegar lo que estaba separado. Por ejemplo, un triángulo es topológicamente lo mismo que una circunferencia, ya que
+podemos transformar uno en otra de forma continua, sin romper ni pegar. Pero una circunferencia no es lo mismo que un segmento, ya que habría que partirla (o pegarla) por algún punto.
+
+Esta es la razón de que se la llame la "geometría de la página de goma", porque es como si estuviéramos estudiando geometría sobre un papel de goma que pudiera contraerse, estirarse, etc.
+:::
+
+La esfera se trasforma topológicamente en un elefante. Pero el toro no puede transformase en una esfera
+-->
+<div id="propiedades-preservadas-bajo-transformaciones-topológicas" class="section level3" number="1.5.1">
+<h3><span class="header-section-number">1.5.1</span> Propiedades preservadas bajo transformaciones topológicas</h3>
+<!--
+Algunas propiedades se conservan bajo transformaciones topológicas y otras no. La propiedad de un círculo de ser una curva cerrada simple es una propiedad que se conserva bajo una transformación topológica arbitraria. Es una propiedad topológica. La superficie de una esfera tiene las siguientes dos propiedades que se conservan bajo una transformación topológica arbitraria.
+1. La superficie está cerrada. No hay bordes en él (como con un cuadrado).
+2. Toda curva simple cerrada en su superficie representa una disección de la misma en este sentido: si hacemos un corte a lo largo de la curva, la superficie se separa en dos partes inconexas.
+-->
+</div>
+<div id="género-de-una-superficie" class="section level3" number="1.5.2">
+<h3><span class="header-section-number">1.5.2</span> Género de una superficie</h3>
+<!--
+El género de una superficie es su tipo topológico. Las superficies del mismo género son topológicamente equivalentes entre sí. Las superficies de diferentes géneros no son topológicamente equivalentes. ¿Qué característica de una superficie nos permite determinar su género. La característica es esta: el mayor número de curvas cerradas simples que no se cruzan que se pueden dibujar en la superficie sin separarla (es decir, hacer que la superficie se separe en partes desconectadas cuando se hacen cortes a lo largo de las curvas).
+
+::: {.example name="Transformación topológicas de la $N$ esfera"}
+El género de una esfera es 0 ya que no se pueden dibujar tales curvas en su superficie sin separarla. El género de un toro es 1, y no más de uno tales curvas se pueden dibujar en su superficie sin separarlo. Considere ahora la rosquilla de doble orificio que se muestra en la Fig. 5. Tiene un género de 2 ya que dos, pero no más, de tales curvas se pueden dibujar en su superficie sin separarla. De manera similar, una rosquilla con tres orificios tiene un género de 3 desde tres, y no más, tales curvas se pueden dibujar en su superficie sin separarla, y en general, una rosquilla con orificios p tiene un género de p desde p (y no más) tales curvas se pueden dibujar en su superficie sin separarla.
+:::
+-->
+</div>
+<div id="superficies-de-una-sola-cara-o-superficies-no-orientables" class="section level3" number="1.5.3">
+<h3><span class="header-section-number">1.5.3</span> Superficies de una sola cara o superficies no orientables</h3>
+<!--
+El espacio en dos dominios, uno interior y otro exterior, constituyendo la superficie el límite común entre los dos dominios. Este hecho está conectado con otro. Ahora demostraremos algunas superficies que tienen un solo lado. La primera que exponemos es la cinta de Móbius se construye tomando una larga banda rectangular de papel y pegando los dos extremos después de darle media vuelta como se muestra en la Fig. 8. Una extensión es la botella de Klein.
+
+https://solitaryroad.com/c775.html
+https://en.wikipedia.org/wiki/Topology
+
+-->
+</div>
 </div>
 <div id="recursividad-o-iteración-de-transformaciones-2d-y-3d-secuencias" class="section level2" number="1.6">
 <h2><span class="header-section-number">1.6</span> Recursividad o iteración de transformaciones 2D y 3D (Secuencias)</h2>
@@ -257,7 +488,7 @@ Leithold, Louis. 1990. <em>The Calculus of a Single Variable with Analytic Geome
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="introducción.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 <a href="número-áureo-como-un-fractal.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
