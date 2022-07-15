@@ -48,7 +48,7 @@ www
 
 
 ## Operaciones con conjuntos
-<!--
+
 Son las siguientes
 
 1. Distanciamiento. Dos formas mantienen una relación de distanciamiento cuando existe una separación entre ellas $𝐹_1\cap 𝐹_2=\emptyset$.
@@ -59,7 +59,6 @@ Son las siguientes
 6. Sustracción. La relación de sustracción se produce cuando una forma no aparece representada, pero resta el espacio común a la otra creando un vacío $𝐹_2-𝐹_1$.
 7. Penetración. Existe relación de penetración entre formas cuando se crea un vacío en el espacio común entre ellas $𝐹_2\: \Delta\: 𝐹_1$.
 2. Transparencia. En una relación de transparencia entre formas, ambas formas comparten un espacio en común, pero se aprecia el contorno de ambas. Podemos entenderlo como una superposición de una forma translúcida sobre otra ($𝐹_2\cup 𝐹_1)\cup (𝐹_1\cap 𝐹_2$).
--->
 
 ### Relación entre operaciones entre formas y los fractales
 
